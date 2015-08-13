@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/com.asoluter.servlet.iml" filepath="$PROJECT_DIR$/com.asoluter.servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServLIT.iml" filepath="$PROJECT_DIR$/ServLIT.iml" />
     </modules>
   </component>
 </project>
