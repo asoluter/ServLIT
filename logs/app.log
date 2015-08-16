@@ -1,0 +1,30 @@
+2015-40-15 20:40:14.314 [main] INFO  Server - started
+2015-41-15 20:41:24.935 [main] INFO  Server :: started
+2015-42-15 20:42:31.014 [main] ERROR serv.RealServ: fail on start
+2015-44-15 20:44:11.527 [main] INFO  Server| started
+2015-44-15 20:44:34.066 [main] INFO  | Server: started
+2015-44-15 20:44:47.746 [main] INFO | Server: started
+2015-45-15 20:45:16.196 [main] INFO  Server : started
+2015-52-15 20:52:33.680 [main] INFO  Server : started
+2015-54-15 20:54:12.599 [main] INFO  Server : started
+2015-59-15 20:59:59.667 [main] INFO  Server : started
+2015-59-15 20:59:59.671 [main] INFO  Server : connection attempt
+2015-01-15 21:01:20.955 [main] INFO  Server : started
+2015-23-15 22:23:43.388 [main] INFO  Server : started
+2015-23-15 22:23:52.945 [main] INFO  Server : connection attempt
+2015-23-15 22:23:52.946 [main] INFO  New Connection : Made it
+2015-23-15 22:23:53.320 [main] INFO  Server : connection attempt
+2015-23-15 22:23:53.320 [main] INFO  New Connection : Made it
+2015-23-15 22:23:53.331 [main] INFO  Server : connection attempt
+2015-23-15 22:23:53.331 [main] INFO  New Connection : Made it
+2015-24-15 22:24:30.235 [main] INFO  Server : started
+2015-28-15 22:28:52.183 [main] INFO  Server : started
+2015-29-15 22:29:03.038 [main] INFO  Server : connection attempt
+2015-29-15 22:29:03.043 [main] INFO  New Connection : Made it
+2015-29-15 22:29:03.308 [main] INFO  Server : connection attempt
+2015-29-15 22:29:03.308 [main] INFO  New Connection : Made it
+2015-29-15 22:29:03.310 [main] INFO  Server : connection attempt
+2015-29-15 22:29:03.310 [main] INFO  New Connection : Made it
+2015-29-15 22:29:03.311 [main] INFO  Server : connection attempt
+2015-29-15 22:29:03.312 [main] INFO  New Connection : Made it
+2015-35-15 22:35:01.040 [main] INFO  Server : started

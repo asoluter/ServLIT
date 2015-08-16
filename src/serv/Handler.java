@@ -1,5 +1,7 @@
 package serv;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import serv.Auth.MDB;
 import serv.Objects.AuthObject;
 import serv.Objects.Strings;
@@ -10,6 +12,8 @@ import java.io.*;
 import java.net.Socket;
 
 public class Handler extends Thread {
+    Logger logger= LogManager.getLogger("New Connection");
+
     private String name;
     private Socket socket;
     private boolean authorized=false;
@@ -23,6 +27,8 @@ public class Handler extends Thread {
 
     @Override
     public void run() {
+
+        logger.info("Made it");
 
         try {
             out=new ObjectOutputStream(socket.getOutputStream());

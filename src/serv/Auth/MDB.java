@@ -10,48 +10,30 @@ import java.sql.SQLException;
 import java.util.Map;
 
 public class MDB {
-    private static String sql="SELECT* FROM users;";
-    private static Map<String,String> aliases;
-    private static Map<String,String> creds;
-    private static ResultSet data;
+    private static final String authSQL="SELECT mail,login,pass FROM users WHERE (mail=?) OR (login=?)";
 
 
-
-    public static synchronized void init(){
-        Connection connection= DataConnection.getConnecion();
-        if(connection!=null){
-            aliases.clear();
-            creds.clear();
-            try {
-                PreparedStatement preparedStatement = connection.prepareStatement(sql);
-                data=preparedStatement.executeQuery();
-                while (data.next()){
-                    aliases.put(data.getString("mail"),data.getString("user_name"));
-                    creds.put(data.getString("user_name"),data.getString("password"));
-                }
-                connection.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-                //TODO: Make logging
-            }
-
-        }
-
-    }
 
     public static synchronized boolean checkPass(AuthObject authObject){
-        if(aliases.containsKey(authObject.getUserName())){
-            if(authObject.getUserPassword()
-                    .equals(creds
-                                    .get(aliases
-                                                    .get(authObject.getUserName()
-                                                    )
-                                    )
-                    ))return true;
-        }else{
-            if(authObject.getUserPassword()
-                    .equals(creds
-                            .get(authObject.getUserName())))return true;
+        ResultSet resultSet;
+        Connection connection=DataConnection.getConnecion();
+        if (connection!=null){
+            try {
+                PreparedStatement preparedStatement=connection.prepareStatement(authSQL);
+                preparedStatement.setString(1,authObject.getUserName());
+                preparedStatement.setString(2,authObject.getUserName());
+                resultSet=preparedStatement.executeQuery();
+
+                connection.close();
+
+                while (resultSet.next()){
+                    if(resultSet.getString("pass").equals(authObject.getUserPassword())){
+                        return true;
+                    }
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
         return false;
     }

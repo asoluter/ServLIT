@@ -1541,6 +1541,8 @@
       <column name="ans_id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnYW5zdmVyc19hbnNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
       <column name="quest_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="ans_text" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="ansvers_pkey" columns="ans_id"/>
+      <index name="unique_ans_id" unique="true" columns="ans_id"/>
     </table>
     <table name="ansvers_ans_id_seq" schema="public" catalog="litest" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1558,6 +1560,8 @@
       <column name="cont_id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnY29udGVzdHNfY29udF9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
       <column name="name" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="ending" sqlType="date" precision="13" scale="0" nullable="false" jdbcType="91"/>
+      <primary-key name="contests_pkey" columns="cont_id"/>
+      <index name="unique_cont_id" unique="true" columns="cont_id"/>
     </table>
     <table name="contests_cont_id_seq" schema="public" catalog="litest" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1572,13 +1576,16 @@
       <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
     </table>
     <table name="results" schema="public" catalog="litest" type="TABLE">
-      <column name="res_id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncmVzdWx0c19pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
+      <column name="res_id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncmVzdWx0c19yZXNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
       <column name="cont_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="login" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
-      <column name="column_4" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="test_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="ans_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="result" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="results_pkey" columns="res_id"/>
+      <index name="unique_res_id" unique="true" columns="res_id"/>
     </table>
-    <table name="results_id_seq" schema="public" catalog="litest" type="SEQUENCE">
+    <table name="results_res_id_seq" schema="public" catalog="litest" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
       <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
@@ -1595,6 +1602,8 @@
       <column name="cont_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="test_name" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="quest" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="tests_pkey" columns="test_id"/>
+      <index name="unique_test_id" unique="true" columns="test_id"/>
     </table>
     <table name="tests_test_id_seq" schema="public" catalog="litest" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1609,13 +1618,20 @@
       <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
     </table>
     <table name="users" schema="public" catalog="litest" type="TABLE">
-      <column name="user_id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgndXNlcnNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="user_id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgndXNlcnNfdXNlcl9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
       <column name="login" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="pass" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="mail" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="name" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="birth" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="phone" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="users_pkey" columns="user_id"/>
+      <index name="unique_login" unique="true" columns="login"/>
+      <index name="unique_mail" unique="true" columns="mail"/>
+      <index name="unique_phone" unique="true" columns="phone"/>
+      <index name="unique_user_id" unique="true" columns="user_id"/>
     </table>
-    <table name="users_id_seq" schema="public" catalog="litest" type="SEQUENCE">
+    <table name="users_user_id_seq" schema="public" catalog="litest" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
       <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
       <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
