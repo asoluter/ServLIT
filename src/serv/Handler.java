@@ -1,12 +1,13 @@
 package serv;
 
+import com.asoluter.litest.Objects.AuthObject;
+import com.asoluter.litest.Objects.Strings;
+import com.asoluter.litest.Objects.TestObject;
+import com.asoluter.litest.Objects.TypingObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import serv.Auth.MDB;
-import serv.Objects.AuthObject;
-import serv.Objects.Strings;
-import serv.Objects.TestObject;
-import serv.Objects.TypingObject;
+
 
 import java.io.*;
 import java.net.Socket;
@@ -28,9 +29,9 @@ public class Handler extends Thread {
     @Override
     public void run() {
 
-        logger.info("Made it");
+            logger.info("Made it");
 
-        try {
+            try {
             out=new ObjectOutputStream(socket.getOutputStream());
             in=new ObjectInputStream(socket.getInputStream());
             TypingObject obj=(TypingObject)in.readObject();
@@ -70,6 +71,10 @@ public class Handler extends Thread {
 
                     case Strings.PUZZLE:{
                         //TODO:make puzzles
+                        break;
+                    }
+                    case Strings.REFRESH:{
+
                         break;
                     }
 

@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37eefbcf-3f85-435e-afa9-4fb0c1e24fe6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data SQL.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Refresh.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serv/Tests/Tests.java" />
+      <change type="DELETED" beforePath="D:\ServLIT\Data SQL.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\out\production\ServLIT\serv\Objects\AuthObject.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\out\production\ServLIT\serv\Objects\RegData.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\out\production\ServLIT\serv\Objects\Strings.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\out\production\ServLIT\serv\Objects\TestObject.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\out\production\ServLIT\serv\Objects\TestResult.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\out\production\ServLIT\serv\Objects\TypingObject.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\AuthObject.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\RegData.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\Strings.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\TestObject.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\TestResult.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\TypingObject.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Handler.class" afterPath="$PROJECT_DIR$/out/production/ServLIT/serv/Handler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Auth/MDB.class" afterPath="$PROJECT_DIR$/out/production/ServLIT/serv/Auth/MDB.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/Handler.java" afterPath="$PROJECT_DIR$/src/serv/Handler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/Auth/MDB.java" afterPath="$PROJECT_DIR$/src/serv/Auth/MDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/RealServ.java" afterPath="$PROJECT_DIR$/src/serv/RealServ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServLIT.iml" afterPath="$PROJECT_DIR$/ServLIT.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ServLIT.iws" />
@@ -58,6 +72,60 @@
         <option name="myItemId" value="PostgreSQL - litest@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="litest.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tests" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="litest.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="contests" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="litest.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ansvers" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -66,24 +134,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MDB.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MDB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6785304">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
-                <marker date="1439575802983" expanded="true" signature="290:351" placeholder="SELECT mail,..users..." />
+                <element signature="imports" expanded="true" />
+                <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+                <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+                <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+                <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+                <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+                <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+                <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+                <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+                <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+                <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+                <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+                <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -92,27 +162,65 @@
         <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RealServ.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RealServ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4878049">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Refresh.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Refresh.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="litest.public.contests" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/a96b411b/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/litest.public.contests">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,18 +233,45 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/serv/Auth/MDB.java" />
         <option value="$PROJECT_DIR$/src/serv/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/serv/log4j.xml" />
         <option value="$PROJECT_DIR$/src/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/serv/Handler.java" />
         <option value="$PROJECT_DIR$/src/serv/RealServ.java" />
+        <option value="$PROJECT_DIR$/src/serv/Objects/AnsObject.java" />
+        <option value="$PROJECT_DIR$/src/serv/Objects/AuthObject.java" />
+        <option value="$PROJECT_DIR$/src/serv/Objects/TypingObject.java" />
+        <option value="$PROJECT_DIR$/src/serv/Objects/RegData.java" />
+        <option value="$PROJECT_DIR$/src/serv/Objects/TestObject.java" />
+        <option value="$PROJECT_DIR$/src/serv/Objects/TestResult.java" />
+        <option value="$PROJECT_DIR$/src/serv/Objects/Strings.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Data SQL.sql" />
+        <option value="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" />
+        <option value="$PROJECT_DIR$/src/serv/Handler.java" />
+        <option value="$PROJECT_DIR$/src/serv/Tests/Tests.java" />
+        <option value="$PROJECT_DIR$/src/Refresh.java" />
+        <option value="/PostgreSQL Fragment (MDB.java:393).sql" />
+        <option value="$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java" />
+        <option value="/PostgreSQL Fragment (MDB.java:576).sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/console.sql" />
+        <option value="/PostgreSQL Fragment (MDB.java:593).sql" />
+        <option value="$PROJECT_DIR$/src/serv/Auth/MDB.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -262,7 +397,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Objects" />
+              <option name="myItemId" value="Auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,11 +415,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="serv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
+              <option name="myItemId" value="Objects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,12 +433,40 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/log4j2.xml" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="servlit" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="271" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="299" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="975" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="292" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="968" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ServLIT\src\com\asoluter\litest\Objects" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ServLIT\src" />
       <recent name="D:\ServLIT\src\serv" />
@@ -551,6 +710,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -599,11 +771,17 @@
       <workItem from="1439572534726" duration="6488000" />
       <workItem from="1439658826608" duration="186000" />
       <workItem from="1439659036589" duration="4983000" />
+      <workItem from="1439741901056" duration="3430000" />
+      <workItem from="1439808166278" duration="1782000" />
+      <workItem from="1439826644545" duration="8082000" />
+      <workItem from="1439910480887" duration="3011000" />
+      <workItem from="1439921055260" duration="4766000" />
+      <workItem from="1439929620035" duration="802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11718000" />
+    <option name="totallyTimeSpent" value="33591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -611,30 +789,30 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20628998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23507462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -649,7 +827,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/serv/Handler.java</url>
+          <line>36</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/serv/Handler.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -657,12 +850,145 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="104" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Refresh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="104" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1439575802983" expanded="true" signature="290:351" placeholder="SELECT mail,..users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
           </folding>
         </state>
       </provider>
@@ -671,7 +997,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -679,9 +1151,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,9 +1167,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +1176,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1439575802983" expanded="true" signature="290:351" placeholder="SELECT mail,..users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
           </folding>
         </state>
       </provider>
@@ -717,7 +1197,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -725,9 +1207,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -743,9 +1223,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,15 +1254,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a96b411b/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/litest.public.ansvers">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27874565">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -797,68 +1281,159 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/litest.public.users">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/litest.public.ansvers">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24390244">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/TypingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09195402">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20689656">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Refresh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data SQL.sql">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.5185184">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/litest.public.contests">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Objects/AuthObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06968641">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1439575802983" expanded="true" signature="290:351" placeholder="SELECT mail,..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27874565">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+    <entry file="file://$PROJECT_DIR$/src/serv/Auth/MDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4878049">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.6785304">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1439930423453" expanded="true" signature="328:389" placeholder="SELECT mail,..users..." />
+            <marker date="1439930423453" expanded="true" signature="438:548" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="594:605" placeholder="DROP TABLE a..." />
+            <marker date="1439930423453" expanded="true" signature="594:615" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:633" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="594:1114" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="653:752" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1439930423453" expanded="true" signature="689:751" placeholder="SELECT conte..contests..." />
+            <marker date="1439930423453" expanded="true" signature="772:808" placeholder="DROP TABLE I..." />
+            <marker date="1439930423453" expanded="true" signature="828:1064" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1439930423453" expanded="true" signature="861:1063" placeholder="SELECT tests..tests..." />
+            <marker date="1439930423453" expanded="true" signature="1084:1113" placeholder="SELECT * FRO..available_tests..." />
           </folding>
         </state>
       </provider>
