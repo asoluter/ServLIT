@@ -13,6 +13,7 @@ public class DataConnection {
 
     public static Connection getConnecion(){
         try {
+
             Class.forName(dbDriver);
             return DriverManager.getConnection(dbName,userName,password);
         } catch (ClassNotFoundException e) {

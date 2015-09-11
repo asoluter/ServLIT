@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="PostgreSQL - litest@localhost" uuid="3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4">
+    <data-source name="PostgreSQL - litest@localhost" uuid="fae2963b-627d-4ac0-ab49-792eaad42eb9">
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
       <schema-pattern>litest.pg_catalog litest.public</schema-pattern>

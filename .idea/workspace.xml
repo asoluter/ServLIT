@@ -1,45 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37eefbcf-3f85-435e-afa9-4fb0c1e24fe6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serv/libs/log4j-api-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serv/libs/log4j-core-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/AnsObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data SQL.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Refresh.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serv/Tests/Tests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="DELETED" beforePath="D:\ServLIT\Data SQL.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Auth\MDB.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\AuthObject.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\RegData.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\Strings.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\TestObject.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\TestResult.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ServLIT\src\serv\Objects\TypingObject.java" afterPath="" />
+    <list default="true" id="48b4e7d0-902f-4b29-a81b-0e8a285adb83" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/NullObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\libs\log4j-api-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\ServLIT\src\serv\libs\log4j-core-2.3.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data SQL.sql" afterPath="$PROJECT_DIR$/Data SQL.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/Utils/DataConnection.java" afterPath="$PROJECT_DIR$/src/serv/Utils/DataConnection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/Handler.java" afterPath="$PROJECT_DIR$/src/serv/Handler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/HttpServ/MyHttpServer.java" afterPath="$PROJECT_DIR$/src/serv/HttpServ/MyHttpServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/HttpServ/PortScan.java" afterPath="$PROJECT_DIR$/src/serv/HttpServ/PortScan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" afterPath="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/RealServ.java" afterPath="$PROJECT_DIR$/src/serv/RealServ.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServLIT.iml" afterPath="$PROJECT_DIR$/ServLIT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/Tests/Tests.java" afterPath="$PROJECT_DIR$/src/serv/Tests/Tests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\ServLIT\src\serv\Objects\AuthObject.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/AuthObject.java" />
-      <change type="MOVED" beforePath="D:\ServLIT\src\serv\Objects\RegData.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/RegData.java" />
-      <change type="MOVED" beforePath="D:\ServLIT\src\serv\Objects\Strings.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" />
-      <change type="MOVED" beforePath="D:\ServLIT\src\serv\Objects\TestObject.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/TestObject.java" />
-      <change type="MOVED" beforePath="D:\ServLIT\src\serv\Objects\TestResult.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/TestResult.java" />
-      <change type="MOVED" beforePath="D:\ServLIT\src\serv\Objects\TypingObject.java" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/TypingObject.java" />
+      <change type="MOVED" beforePath="D:\ServLIT\src\Refresh.java" afterPath="$PROJECT_DIR$/src/serv/Refresh.java" />
+      <change type="MOVED" beforePath="D:\ServLIT\src\serv\Handler.java" afterPath="$PROJECT_DIR$/src/serv/HandlerRunnable.java" />
     </list>
     <ignored path="ServLIT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,6 +47,24 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="litest.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -74,47 +73,181 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="HandlerRunnable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MDB.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.1724138">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <marker date="1439965653770" expanded="true" signature="333:394" placeholder="SELECT mail,..users..." />
-                <marker date="1439965653770" expanded="true" signature="443:553" placeholder="SELECT conte..contests..." />
-                <marker date="1439965653770" expanded="true" signature="599:638" placeholder="DROP TABLE I..." />
-                <marker date="1439965653770" expanded="true" signature="658:757" placeholder="CREATE TABLE..available_contests..." />
-                <marker date="1439965653770" expanded="true" signature="694:756" placeholder="SELECT conte..contests..." />
-                <marker date="1439965653770" expanded="true" signature="777:813" placeholder="DROP TABLE I..." />
-                <marker date="1439965653770" expanded="true" signature="833:1069" placeholder="CREATE TABLE..available_tests..." />
-                <marker date="1439965653770" expanded="true" signature="866:1068" placeholder="SELECT tests..tests..." />
-                <marker date="1439965653770" expanded="true" signature="1089:1118" placeholder="SELECT * FRO..available_tests..." />
+                <element signature="e#254#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DataBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="39" />
+              <folding>
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1183#1184#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1482#1483#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1863#1864#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1959#1960#0" expanded="true" />
+                <element signature="e#2003#2004#0" expanded="true" />
+                <element signature="e#2053#2054#0" expanded="true" />
+                <element signature="e#2087#2088#0" expanded="true" />
+                <element signature="e#2153#2154#0" expanded="true" />
+                <element signature="e#2199#2200#0" expanded="true" />
+                <element signature="e#2244#2245#0" expanded="true" />
+                <element signature="e#2273#2274#0" expanded="true" />
+                <element signature="e#2329#2330#0" expanded="true" />
+                <element signature="e#2365#2366#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2442#2443#0" expanded="true" />
+                <element signature="e#2501#2502#0" expanded="true" />
+                <element signature="e#2541#2542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealServ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+                <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+                <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+                <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+                <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+                <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+                <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+                <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+                <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+                <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+                <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+                <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+                <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+                <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="litest.public.contests" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.contests">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="litest.public.tests" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.tests">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="litest.public.answers" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.answers">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,9 +260,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/console.sql" />
-        <option value="$PROJECT_DIR$/src/serv/DataControl/MDB.java" />
+        <option value="$PROJECT_DIR$/src/serv/Utils/DataConnection.java" />
+        <option value="$PROJECT_DIR$/Data SQL.sql" />
+        <option value="/PostgreSQL Fragment (MDB.java:623).sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fae2963b-627d-4ac0-ab49-792eaad42eb9/console.sql" />
+        <option value="/PostgreSQL Fragment (MDB.java:624).sql" />
+        <option value="$PROJECT_DIR$/src/serv/Refresh.java" />
+        <option value="$PROJECT_DIR$/src/serv/Handler.java" />
+        <option value="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" />
+        <option value="$PROJECT_DIR$/src/serv/Tests/Tests.java" />
+        <option value="$PROJECT_DIR$/src/com/asoluter/litest/Objects/NullObject.java" />
+        <option value="$PROJECT_DIR$/src/serv/RealServ.java" />
+        <option value="$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java" />
         <option value="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" />
+        <option value="$PROJECT_DIR$/src/serv/HandlerRunnable.java" />
       </list>
     </option>
   </component>
@@ -170,6 +314,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,29 +383,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServLIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServLIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataQuery" />
+              <option name="myItemId" value="Tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,18 +408,23 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/jdbc-drivers" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ServLIT">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -531,6 +659,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="" />
@@ -559,6 +690,24 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="ServLIT" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="serv.RealServ" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ServLIT" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.ServLIT" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -566,19 +715,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37eefbcf-3f85-435e-afa9-4fb0c1e24fe6" name="Default" comment="" />
-      <created>1439456267721</created>
+      <changelist id="48b4e7d0-902f-4b29-a81b-0e8a285adb83" name="Default" comment="" />
+      <created>1440003699733</created>
       <option name="number" value="Default" />
-      <updated>1439456267721</updated>
-      <workItem from="1439456269444" duration="61000" />
-      <workItem from="1439931899462" duration="311000" />
-      <workItem from="1439964840879" duration="385000" />
-      <workItem from="1439965364004" duration="294000" />
+      <updated>1440003699733</updated>
+      <workItem from="1440003701197" duration="3956000" />
+      <workItem from="1440020721393" duration="598000" />
+      <workItem from="1440069455768" duration="1336000" />
+      <workItem from="1440084282894" duration="2579000" />
+      <workItem from="1440182871887" duration="3923000" />
+      <workItem from="1440867171028" duration="1318000" />
+      <workItem from="1441713934729" duration="1145000" />
+      <workItem from="1441809315422" duration="12260000" />
+      <workItem from="1441864602554" duration="685000" />
+      <workItem from="1441967823521" duration="113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1051000" />
+    <option name="totallyTimeSpent" value="27913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -590,11 +745,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20628998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20575693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -602,11 +757,13 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33073497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -621,11 +778,64 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.contests">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.tests">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.answers">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -633,69 +843,659 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3cc46f73-9756-42b3-a8d7-ff6b2fe49bd4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1724138">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
           <folding>
-            <marker date="1439965653770" expanded="true" signature="333:394" placeholder="SELECT mail,..users..." />
-            <marker date="1439965653770" expanded="true" signature="443:553" placeholder="SELECT conte..contests..." />
-            <marker date="1439965653770" expanded="true" signature="599:638" placeholder="DROP TABLE I..." />
-            <marker date="1439965653770" expanded="true" signature="658:757" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1439965653770" expanded="true" signature="694:756" placeholder="SELECT conte..contests..." />
-            <marker date="1439965653770" expanded="true" signature="777:813" placeholder="DROP TABLE I..." />
-            <marker date="1439965653770" expanded="true" signature="833:1069" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1439965653770" expanded="true" signature="866:1068" placeholder="SELECT tests..tests..." />
-            <marker date="1439965653770" expanded="true" signature="1089:1118" placeholder="SELECT * FRO..available_tests..." />
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Refresh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Refresh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data SQL.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58536583">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fae2963b-627d-4ac0-ab49-792eaad42eb9/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Refresh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43462896">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Utils/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46996465">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/NullObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.092915215">
+          <caret line="4" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.answers">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.available_answers">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.users">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2273#2274#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2442#2443#0" expanded="true" />
+            <element signature="e#2501#2502#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1441831225330" expanded="true" signature="448:509" placeholder="SELECT mail,..users..." />
+            <marker date="1441831225330" expanded="true" signature="558:668" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="714:753" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="773:872" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1441831225330" expanded="true" signature="809:871" placeholder="SELECT conte..contests..." />
+            <marker date="1441831225330" expanded="true" signature="892:928" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="948:1181" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="981:1180" placeholder="SELECT tests..tests..." />
+            <marker date="1441831225330" expanded="true" signature="1229:1258" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1340" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1309:1347" placeholder="DROP TABLE I..." />
+            <marker date="1441831225330" expanded="true" signature="1367:1593" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1441831225330" expanded="true" signature="1402:1592" placeholder="SELECT answe..answers..." />
+            <marker date="1441831225330" expanded="true" signature="1643:1674" placeholder="SELECT * FRO..available_answers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.contests">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.tests">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jdbc-drivers</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ServLIT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>libs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -44,7 +44,7 @@ ADD CONSTRAINT unique_test_id UNIQUE (test_id);
 
 --Create table of ansvers
 
-CREATE TABLE public.ansvers
+CREATE TABLE public.answers
 (
   ans_id SERIAL PRIMARY KEY NOT NULL,
   test_id INT NOT NULL,

@@ -3,7 +3,7 @@ package serv.Tests;
 import com.asoluter.litest.Objects.DataBase;
 
 public class Tests {
-    public static DataBase dataBase;
+    private static DataBase dataBase;
 
     public static DataBase getDataBase() {
         return dataBase;
