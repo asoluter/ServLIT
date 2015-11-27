@@ -38,32 +38,44 @@ public class HandlerRunnable implements Runnable {
             TypingObject obj=(TypingObject)in.readObject();
 
             if (obj.getType().equals(Strings.REGISTER)){
+
                 RegData regData=(RegData) obj.getObject();
 
-                if(MDB.checkRegister(regData))out.writeObject(new TypingObject(Strings.OK, new NullObject()));
-                else out.writeObject(new TypingObject(Strings.BAD,new NullObject()));
+                if(MDB.checkRegister(regData)){
+                    out.writeObject(new TypingObject(Strings.OK, new NullObject()));
+                    logger.info("registered: "+regData.getUserName());
+                }
+                else {
+                    out.writeObject(new TypingObject(Strings.BAD,new NullObject()));
+                    logger.info("not registered: "+regData.getUserName());
+                }
 
             }else if (obj.getType().equals(Strings.AUTH)) {
                 auth=(AuthObject)obj.getObject();
                 authorized=MDB.checkPass(auth);
                 if(authorized){
                     out.writeObject(new TypingObject(Strings.OK,new NullObject()));
+                    logger.info("authorized: "+auth.getUserName());
                 }
                 else {
                     out.writeObject(new TypingObject(Strings.BAD,new NullObject()));
+                    logger.info("not authorized: "+auth.getUserName());
                 }
             }else if(obj.getType().equals(Strings.TEST)){
                 Pair pair=(Pair)obj.getObject();
                 auth=(AuthObject)pair.getFirst();
                 int Iauthorized=MDB.IcheckPass(auth);
                 if(Iauthorized!=-1){
+
                     String login=auth.getUserName();
                     ArrayList<AnsObject> ansvers=(ArrayList)pair.getSecond();
                     int kRans=MDB.IcheckAnsvers(MDB.IgetU_id(login),ansvers);
+                    logger.info("authorized test: user:"+auth.getUserName()+" result:"+String.valueOf(kRans));
                     out.writeObject(new TypingObject(Strings.TEST_RESULT,kRans));
 
                 }
                 else {
+                    logger.info("not authorized test: "+auth.getUserName());
                     out.writeObject(new TypingObject(Strings.TEST_RESULT,-1));
                 }
             }
@@ -72,7 +84,8 @@ public class HandlerRunnable implements Runnable {
             TypingObject test=new TypingObject("test",new TestObject("vyshlo"));
             out.writeObject(test);
             */
-            if(obj.getType().equals(Strings.REFRESH)){
+            else if(obj.getType().equals(Strings.REFRESH)){
+                logger.info("data sent");
                 TypingObject sendData=new TypingObject(Strings.DATABASE, Tests.getDataBase());
                 out.writeObject(sendData);
             }

@@ -20,7 +20,7 @@ public class MDB {
     private static final String authSQL="SELECT mail,login,pass FROM users WHERE (login=?)";
     private static final String IauthSQL="SELECT mail,login,pass,user_id FROM users WHERE (mail=?) OR (login=?)";
     private static final String takeContests="SELECT contests.cont_id, contests.name,contests.ending " +
-            "FROM contests WHERE contests.available";
+            "FROM contests WHERE (contests.available)AND (contests.ending>=current_date)";
     private static final String findTests="DROP TABLE IF EXISTS available_contests;\n" +
             "CREATE TABLE available_contests AS (SELECT contests.cont_id FROM contests WHERE contests.available);\n" +
             "DROP TABLE IF EXISTS available_tests;\n" +
@@ -82,10 +82,10 @@ public class MDB {
                 int k=0;
                 PreparedStatement prep=connection.prepareStatement(getRAns);
                 for(AnsObject ansObject:ansvers){
-                    prep.setInt(1,ansObject.getCont_id()+1);
-                    prep.setInt(2,ansObject.getTest_id()+1);
+                    prep.setInt(1,ansObject.getCont_id());
+                    prep.setInt(2,ansObject.getTest_id());
                     resultSet=prep.executeQuery();
-                    if (resultSet.getFetchSize()>0)
+                    if(resultSet!=null)
                     while (resultSet.next()){
                         if(resultSet.getInt(3)==ansObject.getAns_id())k++;
                     }
