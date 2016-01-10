@@ -7,13 +7,8 @@ import com.asoluter.litest.Objects.RegData;
 import serv.Tests.Tests;
 import serv.Utils.DataConnection;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
-import java.util.IntSummaryStatistics;
-import java.util.List;
 
 public class MDB {
     //private static final String authSQL="SELECT mail,login,pass FROM users WHERE (mail=?) OR (login=?)";
@@ -37,7 +32,156 @@ public class MDB {
     private static final String checkReg="SELECT * FROM users WHERE (login=?)OR (mail=?)";
     private static final String registerUser="INSERT INTO users VALUES (DEFAULT ,?,?,?,?,?,?,?)";
 
+    private static final String FContests="SELECT * FROM contests";
+    private static final String FAnswers ="SELECT * FROM answers";
+    private static final String FRightAnswers ="SELECT * FROM rans";
+    private static final String FResults="SELECT * FROM results";
+    private static final String FTests="SELECT * FROM tests";
+    private static final String FUsers="SELECT * FROM users";
+
+    private static final String DUsers="DELETE FROM users WHERE user_id=?";
+    private static final String DAnswers="DELETE FROM answers WHERE ans_id=?";
+    private static final String DRAns="DELETE FROM rans WHERE rans_id=?";
+    private static final String DContests="DELETE FROM contests WHERE cont_id=?";
+    private static final String DTests="DELETE FROM tests WHERE test_id=?";
+
+    private static final String AddTest="INSERT INTO tests VALUES (DEFAULT ,?,?,?)";
+    private static final String AddRans="INSERT INTO rans VALUES (DEFAULT ,?,?,?)";
+    private static final String AddAns="INSERT INTO answers VALUES (DEFAULT ,?,?)";
+    private static final String AddCont="INSERT INTO contests VALUES (DEFAULT ,?,?,TRUE )";
+
     static DataBase data;
+
+    public static synchronized void addCont(String name,Date ending){
+        Connection connection=DataConnection.getConnecion();
+        if(connection!=null){
+            try {
+                PreparedStatement prep=connection.prepareStatement(AddCont);
+                prep.setString(1,name);
+                prep.setDate(2,ending);
+                prep.execute();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static synchronized void addAns(int test_id,String text){
+        Connection connection=DataConnection.getConnecion();
+        if(connection!=null){
+            try {
+                PreparedStatement prep=connection.prepareStatement(AddAns);
+                prep.setInt(1,test_id);
+                prep.setString(2,text);
+                prep.execute();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static synchronized void addRans(int cont_id,int test_id,int rans){
+        Connection connection=DataConnection.getConnecion();
+        if(connection!=null){
+            try {
+                PreparedStatement prep=connection.prepareStatement(AddRans);
+                prep.setInt(1,cont_id);
+                prep.setInt(2,test_id);
+                prep.setInt(3,rans);
+                prep.execute();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static synchronized void addTest(int cont_id,String test_name,String quest){
+        Connection connection=DataConnection.getConnecion();
+        if(connection!=null){
+            try {
+                PreparedStatement prep=connection.prepareStatement(AddTest);
+                prep.setInt(1,cont_id);
+                prep.setString(2,test_name);
+                prep.setString(3,quest);
+                prep.execute();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
+    public static synchronized void deleteUser(int id){
+        delete(DUsers,id);
+    }
+
+    public static synchronized void deleteAnswers(int id){
+        delete(DAnswers,id);
+    }
+
+    public static synchronized void deleteRAns(int id){
+        delete(DRAns,id);
+    }
+
+    public static synchronized void deleteContests(int id){
+        delete(DContests,id);
+    }
+
+    public static synchronized void deleteTests(int id){
+        delete(DTests,id);
+    }
+
+    private static synchronized void delete(String com,int id){
+        Connection connection=DataConnection.getConnecion();
+        if(connection!=null){
+            try {
+                PreparedStatement prep=connection.prepareStatement(com);
+                prep.setInt(1,id);
+                prep.execute();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static synchronized ResultSet getFUsers(){
+        return getF(FUsers);
+    }
+
+    public static synchronized ResultSet getFTests(){
+        return getF(FTests);
+    }
+
+    public static synchronized ResultSet getFResults(){
+        return getF(FResults);
+    }
+
+    public static synchronized ResultSet getFAnswers(){
+        return getF(FAnswers);
+    }
+
+    public static synchronized ResultSet getFRightAnswers(){
+        return getF(FRightAnswers);
+    }
+
+    public static synchronized ResultSet getFContests(){
+        return getF(FContests);
+    }
+
+    private static synchronized ResultSet getF(String s){
+        Connection connection=DataConnection.getConnecion();
+        if(connection!=null){
+            try {
+                PreparedStatement prep=connection.prepareStatement(s);
+                return prep.executeQuery();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return null;
+    }
+
+
 
     public static synchronized boolean checkRegister(RegData regData){
         ResultSet resultSet;
@@ -270,6 +414,8 @@ public class MDB {
     public static synchronized void getTest(){
         
     }
+
+
 
 
 }

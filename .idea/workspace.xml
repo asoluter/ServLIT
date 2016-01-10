@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48b4e7d0-902f-4b29-a81b-0e8a285adb83" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/TestObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/TestResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/TestObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/TestResult.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/DataQuery/MDB.class" afterPath="$PROJECT_DIR$/out/production/ServLIT/serv/DataQuery/MDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/HandlerRunnable.class" afterPath="$PROJECT_DIR$/out/production/ServLIT/serv/HandlerRunnable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" afterPath="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serv/HandlerRunnable.java" afterPath="$PROJECT_DIR$/src/serv/HandlerRunnable.java" />
-    </list>
+    <list default="true" id="48b4e7d0-902f-4b29-a81b-0e8a285adb83" name="Default" comment="" />
     <ignored path="ServLIT.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,6 +33,86 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="contests" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="answers" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - litest@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -51,22 +121,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HandlerRunnable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <file leaf-file-name="DataForm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/serv/DataControls/DataForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40161106">
-              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.5755287">
+              <caret line="111" column="97" selection-start-line="111" selection-start-column="97" selection-end-line="111" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,91 +137,59 @@
         <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+              <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
               <folding>
-                <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-                <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-                <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-                <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-                <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-                <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-                <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-                <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-                <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-                <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-                <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-                <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-                <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-                <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-                <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-                <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-                <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-                <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-                <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-                <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-                <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-                <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-                <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-                <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-                <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-                <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-                <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
+                <element signature="imports" expanded="true" />
+                <marker date="1452385904919" expanded="true" signature="377:438" placeholder="SELECT mail,..users..." />
+                <marker date="1452385904919" expanded="true" signature="482:531" placeholder="SELECT mail,..users..." />
+                <marker date="1452385904919" expanded="true" signature="576:645" placeholder="SELECT mail,..users..." />
+                <marker date="1452385904919" expanded="true" signature="694:805" placeholder="SELECT conte..contests..." />
+                <marker date="1452385904919" expanded="true" signature="694:806" placeholder="SELECT conte..contests..." />
+                <marker date="1452385904919" expanded="true" signature="694:841" placeholder="SELECT conte..contests..." />
+                <marker date="1452385904919" expanded="true" signature="887:926" placeholder="DROP TABLE I..." />
+                <marker date="1452385904919" expanded="true" signature="946:1045" placeholder="CREATE TABLE..available_contests..." />
+                <marker date="1452385904919" expanded="true" signature="982:1044" placeholder="SELECT conte..contests..." />
+                <marker date="1452385904919" expanded="true" signature="1065:1101" placeholder="DROP TABLE I..." />
+                <marker date="1452385904919" expanded="true" signature="1121:1354" placeholder="CREATE TABLE..available_tests..." />
+                <marker date="1452385904919" expanded="true" signature="1154:1353" placeholder="SELECT tests..tests..." />
+                <marker date="1452385904919" expanded="true" signature="1403:1432" placeholder="SELECT * FRO..available_tests..." />
+                <marker date="1452385904919" expanded="true" signature="1483:1514" placeholder="DROP TABLE I..." />
+                <marker date="1452385904919" expanded="true" signature="1483:1521" placeholder="DROP TABLE I..." />
+                <marker date="1452385904919" expanded="true" signature="1541:1767" placeholder="CREATE TABLE..available_ansvers..." />
+                <marker date="1452385904919" expanded="true" signature="1576:1766" placeholder="SELECT answe..answers..." />
+                <marker date="1452385904919" expanded="true" signature="1818:1849" placeholder="SELECT * FRO..available_answers..." />
+                <marker date="1452385904919" expanded="true" signature="1896:1957" placeholder="INSERT INTO ..results..." />
+                <marker date="1452385904919" expanded="true" signature="2001:2021" placeholder="SELECT rans...." />
+                <marker date="1452385904919" expanded="true" signature="2001:2034" placeholder="SELECT rans...." />
+                <marker date="1452385904919" expanded="true" signature="2001:2078" placeholder="SELECT rans...cont_id..." />
+                <marker date="1452385904919" expanded="true" signature="2001:2099" placeholder="SELECT rans...cont_id..." />
+                <marker date="1452385904919" expanded="true" signature="2143:2194" placeholder="SELECT users..users..." />
+                <marker date="1452385904919" expanded="true" signature="2240:2286" placeholder="SELECT * FRO..users..." />
+                <marker date="1452385904919" expanded="true" signature="2335:2352" placeholder="INSERT INTO users..." />
+                <marker date="1452385904919" expanded="true" signature="2335:2384" placeholder="INSERT INTO users..." />
+                <marker date="1452385904919" expanded="true" signature="2431:2444" placeholder="SELECT * FRO... " />
+                <marker date="1452385904919" expanded="true" signature="2431:2453" placeholder="SELECT * FRO... contests" />
+                <marker date="1452385904919" expanded="true" signature="2499:2520" placeholder="SELECT * FRO... contests" />
+                <marker date="1452385904919" expanded="true" signature="2571:2585" placeholder="SELECT * FRO... contests" />
+                <marker date="1452385904919" expanded="true" signature="2571:2589" placeholder="SELECT * FRO... rans" />
+                <marker date="1452385904919" expanded="true" signature="2634:2647" placeholder="SELECT * FRO... " />
+                <marker date="1452385904919" expanded="true" signature="2634:2648" placeholder="SELECT * FRO... contests" />
+                <marker date="1452385904919" expanded="true" signature="2634:2655" placeholder="SELECT * FRO... results" />
+                <marker date="1452385904919" expanded="true" signature="2698:2712" placeholder="SELECT * FRO... contests" />
+                <marker date="1452385904919" expanded="true" signature="2698:2717" placeholder="SELECT * FRO... tests" />
+                <marker date="1452385904919" expanded="true" signature="2760:2774" placeholder="SELECT * FRO... contests" />
+                <marker date="1452385904919" expanded="true" signature="2760:2779" placeholder="SELECT * FRO... users" />
+                <marker date="1452385904919" expanded="true" signature="2823:2856" placeholder="DELETE FROM " />
+                <marker date="1452385904919" expanded="true" signature="2901:2935" placeholder="DELETE FROM " />
+                <marker date="1452385904919" expanded="true" signature="2977:3009" placeholder="DELETE FROM " />
+                <marker date="1452385904919" expanded="true" signature="3055:3091" placeholder="DELETE FROM " />
+                <marker date="1452385904919" expanded="true" signature="3134:3167" placeholder="DELETE FROM " />
+                <marker date="1452385904919" expanded="true" signature="3212:3229" placeholder="INSERT INTO tests... " />
+                <marker date="1452385904919" expanded="true" signature="3212:3253" placeholder="INSERT INTO tests... " />
+                <marker date="1452385904919" expanded="true" signature="3297:3337" placeholder="INSERT INTO rans... " />
+                <marker date="1452385904919" expanded="true" signature="3380:3421" placeholder="INSERT INTO tests... " />
+                <marker date="1452385904919" expanded="true" signature="3465:3513" placeholder="INSERT INTO tests... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="litest.public.available_tests" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.available_tests">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="litest.public.answers" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.answers">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Refresh.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/serv/Refresh.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="litest.public.tests" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.tests">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -212,12 +242,23 @@
         <option value="$PROJECT_DIR$/src/serv/CustomOutputStream.java" />
         <option value="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" />
         <option value="$PROJECT_DIR$/src/com/asoluter/litest/Objects/RegData.java" />
-        <option value="$PROJECT_DIR$/src/serv/RealServ.java" />
         <option value="$PROJECT_DIR$/src/serv/Handler.java" />
         <option value="dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.rans" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fae2963b-627d-4ac0-ab49-792eaad42eb9/console.sql" />
-        <option value="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" />
         <option value="$PROJECT_DIR$/src/serv/HandlerRunnable.java" />
+        <option value="$PROJECT_DIR$/src/serv/RealServ.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/UsersAddForm.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/AnswersAddForm.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/ContestsAddForm.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/RightAnswersAddForm.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/TestsAddForm.java" />
+        <option value="/PostgreSQL Fragment (MDB.java:2923).sql" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/GhostText.java" />
+        <option value="/PostgreSQL Fragment (MDB.java:3312).sql" />
+        <option value="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/CSVFileFilter.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/ReportManager.java" />
+        <option value="$PROJECT_DIR$/src/serv/DataControls/DataForm.java" />
       </list>
     </option>
   </component>
@@ -264,9 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,7 +395,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
+              <option name="myItemId" value="DataQuery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,7 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataQuery" />
+              <option name="myItemId" value="DataControls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,16 +441,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/jdbc-drivers" />
+    <property name="last_opened_file_path" value="D:/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -637,26 +678,6 @@
       </option>
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -933,11 +954,19 @@
       <workItem from="1448640925773" duration="6555000" />
       <workItem from="1448650073392" duration="7134000" />
       <workItem from="1448662405800" duration="52000" />
+      <workItem from="1448952811467" duration="4128000" />
+      <workItem from="1448974939943" duration="115000" />
+      <workItem from="1448985177289" duration="97000" />
+      <workItem from="1449047414684" duration="1296000" />
+      <workItem from="1452333185416" duration="5804000" />
+      <workItem from="1452343639069" duration="12344000" />
+      <workItem from="1452374680463" duration="8139000" />
+      <workItem from="1452451701767" duration="3236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83843000" />
+    <option name="totallyTimeSpent" value="119002000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -950,20 +979,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913646" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -976,7 +1005,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -992,33 +1021,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/serv/RealServ.java</url>
-          <line>138</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/serv/HandlerRunnable.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="ansObject.getCont_id()" />
-        <watch expression="ansObject.getTest_id()" />
-        <watch expression="ansObject.getAns_id()" />
+        <watch expression="tableCon.getValueAt(0,3)" language="JAVA" custom="" />
+        <watch expression="Date.valueOf(date.getText())" language="JAVA" custom="" />
       </configuration>
     </watches-manager>
   </component>
@@ -1030,103 +1038,66 @@
     <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
           <folding>
-            <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-            <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-            <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-            <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-            <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-            <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1452385904919" expanded="true" signature="377:438" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="482:531" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="576:645" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="694:805" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:806" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:841" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="887:926" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="946:1045" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1452385904919" expanded="true" signature="982:1044" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="1065:1101" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1121:1354" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1154:1353" placeholder="SELECT tests..tests..." />
+            <marker date="1452385904919" expanded="true" signature="1403:1432" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1514" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1521" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1541:1767" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1452385904919" expanded="true" signature="1576:1766" placeholder="SELECT answe..answers..." />
+            <marker date="1452385904919" expanded="true" signature="1818:1849" placeholder="SELECT * FRO..available_answers..." />
+            <marker date="1452385904919" expanded="true" signature="1896:1957" placeholder="INSERT INTO ..results..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2021" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2034" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2078" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2099" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2143:2194" placeholder="SELECT users..users..." />
+            <marker date="1452385904919" expanded="true" signature="2240:2286" placeholder="SELECT * FRO..users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2352" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2384" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2431:2444" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2431:2453" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2499:2520" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2585" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2589" placeholder="SELECT * FRO... rans" />
+            <marker date="1452385904919" expanded="true" signature="2634:2647" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2634:2648" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2634:2655" placeholder="SELECT * FRO... results" />
+            <marker date="1452385904919" expanded="true" signature="2698:2712" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2698:2717" placeholder="SELECT * FRO... tests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2774" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2779" placeholder="SELECT * FRO... users" />
+            <marker date="1452385904919" expanded="true" signature="2823:2856" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2901:2935" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2977:3009" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3055:3091" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3134:3167" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3212:3229" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3212:3253" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3297:3337" placeholder="INSERT INTO rans... " />
+            <marker date="1452385904919" expanded="true" signature="3380:3421" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3465:3513" placeholder="INSERT INTO tests... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-          <folding>
-            <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-            <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-            <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-            <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-            <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-            <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.rans">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1142,33 +1113,56 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
-            <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-            <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-            <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-            <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-            <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-            <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1452385904919" expanded="true" signature="377:438" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="482:531" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="576:645" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="694:805" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:806" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:841" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="887:926" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="946:1045" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1452385904919" expanded="true" signature="982:1044" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="1065:1101" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1121:1354" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1154:1353" placeholder="SELECT tests..tests..." />
+            <marker date="1452385904919" expanded="true" signature="1403:1432" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1514" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1521" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1541:1767" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1452385904919" expanded="true" signature="1576:1766" placeholder="SELECT answe..answers..." />
+            <marker date="1452385904919" expanded="true" signature="1818:1849" placeholder="SELECT * FRO..available_answers..." />
+            <marker date="1452385904919" expanded="true" signature="1896:1957" placeholder="INSERT INTO ..results..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2021" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2034" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2078" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2099" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2143:2194" placeholder="SELECT users..users..." />
+            <marker date="1452385904919" expanded="true" signature="2240:2286" placeholder="SELECT * FRO..users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2352" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2384" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2431:2444" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2431:2453" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2499:2520" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2585" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2589" placeholder="SELECT * FRO... rans" />
+            <marker date="1452385904919" expanded="true" signature="2634:2647" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2634:2648" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2634:2655" placeholder="SELECT * FRO... results" />
+            <marker date="1452385904919" expanded="true" signature="2698:2712" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2698:2717" placeholder="SELECT * FRO... tests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2774" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2779" placeholder="SELECT * FRO... users" />
+            <marker date="1452385904919" expanded="true" signature="2823:2856" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2901:2935" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2977:3009" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3055:3091" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3134:3167" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3212:3229" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3212:3253" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3297:3337" placeholder="INSERT INTO rans... " />
+            <marker date="1452385904919" expanded="true" signature="3380:3421" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3465:3513" placeholder="INSERT INTO tests... " />
           </folding>
         </state>
       </provider>
@@ -1177,7 +1171,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,33 +1191,56 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
-            <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-            <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-            <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-            <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-            <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-            <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1452385904919" expanded="true" signature="377:438" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="482:531" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="576:645" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="694:805" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:806" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:841" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="887:926" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="946:1045" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1452385904919" expanded="true" signature="982:1044" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="1065:1101" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1121:1354" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1154:1353" placeholder="SELECT tests..tests..." />
+            <marker date="1452385904919" expanded="true" signature="1403:1432" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1514" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1521" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1541:1767" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1452385904919" expanded="true" signature="1576:1766" placeholder="SELECT answe..answers..." />
+            <marker date="1452385904919" expanded="true" signature="1818:1849" placeholder="SELECT * FRO..available_answers..." />
+            <marker date="1452385904919" expanded="true" signature="1896:1957" placeholder="INSERT INTO ..results..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2021" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2034" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2078" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2099" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2143:2194" placeholder="SELECT users..users..." />
+            <marker date="1452385904919" expanded="true" signature="2240:2286" placeholder="SELECT * FRO..users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2352" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2384" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2431:2444" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2431:2453" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2499:2520" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2585" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2589" placeholder="SELECT * FRO... rans" />
+            <marker date="1452385904919" expanded="true" signature="2634:2647" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2634:2648" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2634:2655" placeholder="SELECT * FRO... results" />
+            <marker date="1452385904919" expanded="true" signature="2698:2712" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2698:2717" placeholder="SELECT * FRO... tests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2774" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2779" placeholder="SELECT * FRO... users" />
+            <marker date="1452385904919" expanded="true" signature="2823:2856" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2901:2935" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2977:3009" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3055:3091" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3134:3167" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3212:3229" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3212:3253" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3297:3337" placeholder="INSERT INTO rans... " />
+            <marker date="1452385904919" expanded="true" signature="3380:3421" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3465:3513" placeholder="INSERT INTO tests... " />
           </folding>
         </state>
       </provider>
@@ -1228,7 +1249,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,7 +1276,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="class#1216:1935" expanded="false" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,33 +1296,56 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           <folding>
-            <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-            <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-            <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-            <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-            <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-            <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1452385904919" expanded="true" signature="377:438" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="482:531" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="576:645" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="694:805" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:806" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:841" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="887:926" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="946:1045" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1452385904919" expanded="true" signature="982:1044" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="1065:1101" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1121:1354" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1154:1353" placeholder="SELECT tests..tests..." />
+            <marker date="1452385904919" expanded="true" signature="1403:1432" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1514" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1521" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1541:1767" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1452385904919" expanded="true" signature="1576:1766" placeholder="SELECT answe..answers..." />
+            <marker date="1452385904919" expanded="true" signature="1818:1849" placeholder="SELECT * FRO..available_answers..." />
+            <marker date="1452385904919" expanded="true" signature="1896:1957" placeholder="INSERT INTO ..results..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2021" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2034" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2078" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2099" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2143:2194" placeholder="SELECT users..users..." />
+            <marker date="1452385904919" expanded="true" signature="2240:2286" placeholder="SELECT * FRO..users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2352" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2384" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2431:2444" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2431:2453" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2499:2520" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2585" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2589" placeholder="SELECT * FRO... rans" />
+            <marker date="1452385904919" expanded="true" signature="2634:2647" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2634:2648" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2634:2655" placeholder="SELECT * FRO... results" />
+            <marker date="1452385904919" expanded="true" signature="2698:2712" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2698:2717" placeholder="SELECT * FRO... tests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2774" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2779" placeholder="SELECT * FRO... users" />
+            <marker date="1452385904919" expanded="true" signature="2823:2856" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2901:2935" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2977:3009" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3055:3091" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3134:3167" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3212:3229" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3212:3253" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3297:3337" placeholder="INSERT INTO rans... " />
+            <marker date="1452385904919" expanded="true" signature="3380:3421" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3465:3513" placeholder="INSERT INTO tests... " />
           </folding>
         </state>
       </provider>
@@ -1302,7 +1354,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,7 +1381,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="class#1216:1935" expanded="false" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,33 +1401,56 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           <folding>
-            <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-            <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-            <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-            <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-            <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-            <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1452385904919" expanded="true" signature="377:438" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="482:531" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="576:645" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="694:805" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:806" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:841" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="887:926" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="946:1045" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1452385904919" expanded="true" signature="982:1044" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="1065:1101" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1121:1354" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1154:1353" placeholder="SELECT tests..tests..." />
+            <marker date="1452385904919" expanded="true" signature="1403:1432" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1514" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1521" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1541:1767" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1452385904919" expanded="true" signature="1576:1766" placeholder="SELECT answe..answers..." />
+            <marker date="1452385904919" expanded="true" signature="1818:1849" placeholder="SELECT * FRO..available_answers..." />
+            <marker date="1452385904919" expanded="true" signature="1896:1957" placeholder="INSERT INTO ..results..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2021" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2034" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2078" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2099" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2143:2194" placeholder="SELECT users..users..." />
+            <marker date="1452385904919" expanded="true" signature="2240:2286" placeholder="SELECT * FRO..users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2352" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2384" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2431:2444" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2431:2453" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2499:2520" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2585" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2589" placeholder="SELECT * FRO... rans" />
+            <marker date="1452385904919" expanded="true" signature="2634:2647" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2634:2648" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2634:2655" placeholder="SELECT * FRO... results" />
+            <marker date="1452385904919" expanded="true" signature="2698:2712" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2698:2717" placeholder="SELECT * FRO... tests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2774" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2779" placeholder="SELECT * FRO... users" />
+            <marker date="1452385904919" expanded="true" signature="2823:2856" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2901:2935" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2977:3009" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3055:3091" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3134:3167" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3212:3229" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3212:3253" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3297:3337" placeholder="INSERT INTO rans... " />
+            <marker date="1452385904919" expanded="true" signature="3380:3421" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3465:3513" placeholder="INSERT INTO tests... " />
           </folding>
         </state>
       </provider>
@@ -1452,90 +1535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/fae2963b-627d-4ac0-ab49-792eaad42eb9.SCHEMA:litest.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>fae2963b-627d-4ac0-ab49-792eaad42eb9.SCHEMA:litest.public</OriginalElement>
-          <nodes>
-            <node x="0.0" y="576.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.available_contests</node>
-            <node x="0.0" y="251.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.contests</node>
-            <node x="0.0" y="0.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.users</node>
-            <node x="212.0" y="414.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.answers</node>
-            <node x="0.0" y="414.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.available_tests</node>
-            <node x="294.0" y="0.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.results</node>
-            <node x="215.0" y="251.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.rans</node>
-            <node x="400.0" y="414.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.available_answers</node>
-            <node x="428.0" y="251.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.tests</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-63.0" y="132.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serv/Tests/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22988506">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.available_answers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/Refresh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,7 +1573,13 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fae2963b-627d-4ac0-ab49-792eaad42eb9/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -1583,7 +1592,128 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.results">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Refresh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/fae2963b-627d-4ac0-ab49-792eaad42eb9.SCHEMA:litest.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>fae2963b-627d-4ac0-ab49-792eaad42eb9.SCHEMA:litest.public</OriginalElement>
+          <nodes>
+            <node x="0.0" y="251.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.contests</node>
+            <node x="0.0" y="576.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.available_contests</node>
+            <node x="0.0" y="0.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.users</node>
+            <node x="0.0" y="414.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.available_tests</node>
+            <node x="212.0" y="414.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.answers</node>
+            <node x="294.0" y="0.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.results</node>
+            <node x="215.0" y="251.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.rans</node>
+            <node x="400.0" y="414.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.available_answers</node>
+            <node x="428.0" y="251.0">fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.tests</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-63.0" y="133.0" />
+          <SelectedNodes>
+            <node>fae2963b-627d-4ac0-ab49-792eaad42eb9.TABLE:litest.public.contests</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.available_answers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27586207">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/RealServ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="169" column="28" selection-start-line="169" selection-start-column="28" selection-end-line="169" selection-end-column="28" />
+          <folding>
+            <element signature="class#1216:1935" expanded="false" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.answers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1599,16 +1729,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.answers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/src/serv/DataControls/GhostText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0947868">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2562#2563#0" expanded="true" />
+            <element signature="e#2625#2626#0" expanded="true" />
+            <element signature="e#2654#2655#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2746#2747#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1625,67 +1764,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fae2963b-627d-4ac0-ab49-792eaad42eb9/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
-          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serv/DataQuery/MDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
           <folding>
-            <marker date="1448660722899" expanded="true" signature="540:601" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="645:694" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="739:808" placeholder="SELECT mail,..users..." />
-            <marker date="1448660722899" expanded="true" signature="857:968" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:969" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="857:1004" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1050:1089" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1109:1208" placeholder="CREATE TABLE..available_contests..." />
-            <marker date="1448660722899" expanded="true" signature="1145:1207" placeholder="SELECT conte..contests..." />
-            <marker date="1448660722899" expanded="true" signature="1228:1264" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1284:1517" placeholder="CREATE TABLE..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1317:1516" placeholder="SELECT tests..tests..." />
-            <marker date="1448660722899" expanded="true" signature="1566:1595" placeholder="SELECT * FRO..available_tests..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1677" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1646:1684" placeholder="DROP TABLE I..." />
-            <marker date="1448660722899" expanded="true" signature="1704:1930" placeholder="CREATE TABLE..available_ansvers..." />
-            <marker date="1448660722899" expanded="true" signature="1739:1929" placeholder="SELECT answe..answers..." />
-            <marker date="1448660722899" expanded="true" signature="1981:2012" placeholder="SELECT * FRO..available_answers..." />
-            <marker date="1448660722899" expanded="true" signature="2059:2120" placeholder="INSERT INTO ..results..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2184" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2197" placeholder="SELECT rans...." />
-            <marker date="1448660722899" expanded="true" signature="2164:2241" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2164:2262" placeholder="SELECT rans...cont_id..." />
-            <marker date="1448660722899" expanded="true" signature="2306:2357" placeholder="SELECT users..users..." />
-            <marker date="1448660722899" expanded="true" signature="2403:2449" placeholder="SELECT * FRO..users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2515" placeholder="INSERT INTO users..." />
-            <marker date="1448660722899" expanded="true" signature="2498:2547" placeholder="INSERT INTO users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1452385904919" expanded="true" signature="377:438" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="482:531" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="576:645" placeholder="SELECT mail,..users..." />
+            <marker date="1452385904919" expanded="true" signature="694:805" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:806" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="694:841" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="887:926" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="946:1045" placeholder="CREATE TABLE..available_contests..." />
+            <marker date="1452385904919" expanded="true" signature="982:1044" placeholder="SELECT conte..contests..." />
+            <marker date="1452385904919" expanded="true" signature="1065:1101" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1121:1354" placeholder="CREATE TABLE..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1154:1353" placeholder="SELECT tests..tests..." />
+            <marker date="1452385904919" expanded="true" signature="1403:1432" placeholder="SELECT * FRO..available_tests..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1514" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1483:1521" placeholder="DROP TABLE I..." />
+            <marker date="1452385904919" expanded="true" signature="1541:1767" placeholder="CREATE TABLE..available_ansvers..." />
+            <marker date="1452385904919" expanded="true" signature="1576:1766" placeholder="SELECT answe..answers..." />
+            <marker date="1452385904919" expanded="true" signature="1818:1849" placeholder="SELECT * FRO..available_answers..." />
+            <marker date="1452385904919" expanded="true" signature="1896:1957" placeholder="INSERT INTO ..results..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2021" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2034" placeholder="SELECT rans...." />
+            <marker date="1452385904919" expanded="true" signature="2001:2078" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2001:2099" placeholder="SELECT rans...cont_id..." />
+            <marker date="1452385904919" expanded="true" signature="2143:2194" placeholder="SELECT users..users..." />
+            <marker date="1452385904919" expanded="true" signature="2240:2286" placeholder="SELECT * FRO..users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2352" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2335:2384" placeholder="INSERT INTO users..." />
+            <marker date="1452385904919" expanded="true" signature="2431:2444" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2431:2453" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2499:2520" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2585" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2571:2589" placeholder="SELECT * FRO... rans" />
+            <marker date="1452385904919" expanded="true" signature="2634:2647" placeholder="SELECT * FRO... " />
+            <marker date="1452385904919" expanded="true" signature="2634:2648" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2634:2655" placeholder="SELECT * FRO... results" />
+            <marker date="1452385904919" expanded="true" signature="2698:2712" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2698:2717" placeholder="SELECT * FRO... tests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2774" placeholder="SELECT * FRO... contests" />
+            <marker date="1452385904919" expanded="true" signature="2760:2779" placeholder="SELECT * FRO... users" />
+            <marker date="1452385904919" expanded="true" signature="2823:2856" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2901:2935" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="2977:3009" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3055:3091" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3134:3167" placeholder="DELETE FROM " />
+            <marker date="1452385904919" expanded="true" signature="3212:3229" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3212:3253" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3297:3337" placeholder="INSERT INTO rans... " />
+            <marker date="1452385904919" expanded="true" signature="3380:3421" placeholder="INSERT INTO tests... " />
+            <marker date="1452385904919" expanded="true" signature="3465:3513" placeholder="INSERT INTO tests... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a96b411b/fae2963b-627d-4ac0-ab49-792eaad42eb9/litest.public.results">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/src/serv/DataControls/ReportManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29885057">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serv/HandlerRunnable.java">
+    <entry file="file://$PROJECT_DIR$/src/serv/DataControls/CSVFileFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40161106">
-          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.11494253">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serv/DataControls/DataForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5755287">
+          <caret line="111" column="97" selection-start-line="111" selection-start-column="97" selection-end-line="111" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

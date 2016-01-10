@@ -1,19 +1,19 @@
 package serv;
 
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import serv.DataControls.DataForm;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.Console;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Observable;
 
 public class RealServ extends JFrame {
 
@@ -36,40 +36,76 @@ public class RealServ extends JFrame {
 
     JButton startButton;
     JButton stopButton;
+    JButton editDataButton;
+    DataForm dataForm;
 
     public void start(){
+        dataForm=new DataForm();
+
         setTitle("ServLIT");
         setSize(700,500);
         JPanel root=new JPanel(new BorderLayout());
         getContentPane().add(root);
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new WindowListener() {
+            @Override
+            public void windowOpened(WindowEvent e) {
+
+            }
+
+            @Override
+            public void windowClosing(WindowEvent e) {
+
+            }
+
+            @Override
+            public void windowClosed(WindowEvent e) {
+                System.exit(0);
+            }
+
+            @Override
+            public void windowIconified(WindowEvent e) {
+
+            }
+
+            @Override
+            public void windowDeiconified(WindowEvent e) {
+
+            }
+
+            @Override
+            public void windowActivated(WindowEvent e) {
+
+            }
+
+            @Override
+            public void windowDeactivated(WindowEvent e) {
+
+            }
+        });
 
         JPanel panel=new JPanel(new BorderLayout());
         JPanel bpanel=new JPanel(new FlowLayout());
 
-        panel.setSize(200,500);
+        bpanel.setSize(200,500);
         panel.setSize(500,500);
 
         startButton=new JButton("Start");
-        startButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                startServ();
-            }
-        });
+        startButton.addActionListener(e -> startServ());
         stopButton=new JButton("Stop");
-        stopButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                stopServ();
-            }
-        });
+        stopButton.addActionListener(e -> stopServ());
         startButton.setEnabled(true);
         stopButton.setEnabled(false);
+
+        editDataButton =new JButton("Edit database");
+        editDataButton.addActionListener(e -> startEditDataForm());
+
         bpanel.add(startButton);
         bpanel.add(stopButton);
+        bpanel.add(editDataButton);
         panel.add(bpanel,BorderLayout.CENTER);
+        bpanel.setPreferredSize(new Dimension(200,500));
 
         JTextArea area=new JTextArea();
         area.setEditable(false);
@@ -86,9 +122,10 @@ public class RealServ extends JFrame {
 
         logger=LogManager.getLogger("Server");
 
+    }
 
-
-
+    private void startEditDataForm() {
+        dataForm.setVisible(true);
     }
 
     private Thread serverThread;
@@ -99,29 +136,26 @@ public class RealServ extends JFrame {
         startButton.setEnabled(false);
         stopButton.setEnabled(true);
 
-        serverThread=new Thread(new Runnable() {
-            @Override
-            public void run() {
-                new Refresh().start();
+        serverThread=new Thread(() -> {
+            new Refresh().start();
+            try {
+                serverSocket=new ServerSocket(8000);
+
+                logger.info("started");
+
                 try {
-                    serverSocket=new ServerSocket(8000);
-
-                    logger.info("started");
-
-                    try {
-                        while (!Thread.interrupted()){
-                            Socket socket=serverSocket.accept();
-                            logger.info("connection attempt");
-                            new Handler(socket).start();
-                        }
-                    }finally {
-                        serverSocket.close();
+                    while (!Thread.interrupted()){
+                        Socket socket=serverSocket.accept();
+                        logger.info("connection attempt");
+                        new Handler(socket).start();
                     }
-                } catch (IOException e) {
-                    if (serverRun)logger.error("fail on start");
-                    e.printStackTrace();
-                    serverRun=false;
+                }finally {
+                    serverSocket.close();
                 }
+            } catch (IOException e) {
+                if (serverRun)logger.error("fail on start");
+                e.printStackTrace();
+                serverRun=false;
             }
         });
 
