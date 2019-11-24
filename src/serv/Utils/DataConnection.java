@@ -16,9 +16,7 @@ public class DataConnection {
 
             Class.forName(dbDriver);
             return DriverManager.getConnection(dbName,userName,password);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
         return null;

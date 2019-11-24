@@ -14,24 +14,20 @@ import java.net.ServerSocket;
  * @author Scott stark (sstark@redhat.com) (C) 2011 Red Hat Inc.
  * @version $Revision:$
  */
-public class PortScan {
+class PortScan {
     private InetAddress bindAddr;
 
     /** Potential ports used by JBossAS */
-    public static int[] DEFAULT_PORTS = {
+    static int[] DEFAULT_PORTS = {
         8080, 8443, 3528, 3529, 9999, 9990, 9443, 5445, 5455, 8090, 4447, 4712, 4713,
         7600, 57600
     };
 
-    public PortScan(InetAddress bindAddr) {
+    PortScan(InetAddress bindAddr) {
         this.bindAddr = bindAddr;
     }
 
-    /**
-     *
-     * @param ports
-     */
-    public void doScan(int[] ports, HttpExchange he) {
+    void doScan(int[] ports, HttpExchange he) {
         for(int port : ports) {
             testPort(port, he);
         }

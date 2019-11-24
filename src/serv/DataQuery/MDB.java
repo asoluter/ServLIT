@@ -27,30 +27,28 @@ public class MDB {
             "                                   FROM answers,available_tests WHERE answers.test_id IN (available_tests.test_id));\n";
     private static final String takeAnswers="SELECT * FROM available_answers;";
     private static final String setResult="INSERT INTO  results VALUES (DEFAULT, ?, ?,'',?,current_date)";
-    private static final String getRAns="SELECT rans.cont_id, rans.test_id, rans.rans FROM rans WHERE ((rans.cont_id=?)AND(rans.test_id=?))";
+    private static final String getRAns="SELECT tests.cont_id, answers.test_id, answers.ans_id FROM answers, tests WHERE ((tests.test_id=answers.test_id)AND(tests.cont_id=?)AND(answers.test_id=?)AND(answers.correct=TRUE))";
     private static final String getU_ID="SELECT users.user_id FROM users WHERE users.login=?;";
     private static final String checkReg="SELECT * FROM users WHERE (login=?)OR (mail=?)";
-    private static final String registerUser="INSERT INTO users VALUES (DEFAULT ,?,?,?,?,?,?,?)";
+    private static final String registerUser="INSERT INTO users VALUES (DEFAULT ,?,?,?,?,?,?)";
 
     private static final String FContests="SELECT * FROM contests";
     private static final String FAnswers ="SELECT * FROM answers";
-    private static final String FRightAnswers ="SELECT * FROM rans";
     private static final String FResults="SELECT * FROM results";
     private static final String FTests="SELECT * FROM tests";
     private static final String FUsers="SELECT * FROM users";
 
     private static final String DUsers="DELETE FROM users WHERE user_id=?";
     private static final String DAnswers="DELETE FROM answers WHERE ans_id=?";
-    private static final String DRAns="DELETE FROM rans WHERE rans_id=?";
     private static final String DContests="DELETE FROM contests WHERE cont_id=?";
     private static final String DTests="DELETE FROM tests WHERE test_id=?";
 
     private static final String AddTest="INSERT INTO tests VALUES (DEFAULT ,?,?,?)";
-    private static final String AddRans="INSERT INTO rans VALUES (DEFAULT ,?,?,?)";
-    private static final String AddAns="INSERT INTO answers VALUES (DEFAULT ,?,?)";
+    private static final String AddAns="INSERT INTO answers VALUES (DEFAULT ,?,?,?)";
     private static final String AddCont="INSERT INTO contests VALUES (DEFAULT ,?,?,TRUE )";
 
-    static DataBase data;
+    private static DataBase data;
+    private static UpdatableBCrypt bCrypt = new UpdatableBCrypt();
 
     public static synchronized void addCont(String name,Date ending){
         Connection connection=DataConnection.getConnecion();
@@ -66,28 +64,14 @@ public class MDB {
         }
     }
 
-    public static synchronized void addAns(int test_id,String text){
+    public static synchronized void addAns(int test_id, String text, boolean correct){
         Connection connection=DataConnection.getConnecion();
         if(connection!=null){
             try {
                 PreparedStatement prep=connection.prepareStatement(AddAns);
-                prep.setInt(1,test_id);
-                prep.setString(2,text);
-                prep.execute();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    public static synchronized void addRans(int cont_id,int test_id,int rans){
-        Connection connection=DataConnection.getConnecion();
-        if(connection!=null){
-            try {
-                PreparedStatement prep=connection.prepareStatement(AddRans);
-                prep.setInt(1,cont_id);
-                prep.setInt(2,test_id);
-                prep.setInt(3,rans);
+                prep.setInt(1, test_id);
+                prep.setString(2, text);
+                prep.setBoolean(3, correct);
                 prep.execute();
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -117,10 +101,6 @@ public class MDB {
 
     public static synchronized void deleteAnswers(int id){
         delete(DAnswers,id);
-    }
-
-    public static synchronized void deleteRAns(int id){
-        delete(DRAns,id);
     }
 
     public static synchronized void deleteContests(int id){
@@ -160,10 +140,6 @@ public class MDB {
         return getF(FAnswers);
     }
 
-    public static synchronized ResultSet getFRightAnswers(){
-        return getF(FRightAnswers);
-    }
-
     public static synchronized ResultSet getFContests(){
         return getF(FContests);
     }
@@ -199,12 +175,11 @@ public class MDB {
 
                 prep=connection.prepareStatement(registerUser);
                 prep.setString(1,regData.getUserLogin());
-                prep.setString(2,regData.getUserPassword());
+                prep.setString(2, bCrypt.hash(regData.getUserPassword()));
                 prep.setString(3,regData.getUserMail());
                 prep.setString(4,regData.getUserName());
                 prep.setDate(5,regData.getUserBirth());
                 prep.setBoolean(6,true);
-                prep.setString(7,String.valueOf(regData.getUserName().hashCode()));
                 prep.execute();
 
                 return true;
@@ -217,7 +192,7 @@ public class MDB {
         return false;
     }
 
-    public static synchronized int IcheckAnsvers(int u_id, ArrayList<AnsObject> ansvers){
+    public static synchronized int IcheckAnswers(int u_id, ArrayList<AnsObject> answers){
         ResultSet resultSet;
         Connection connection=DataConnection.getConnecion();
         if(connection!=null){
@@ -225,18 +200,19 @@ public class MDB {
             try {
                 int k=0;
                 PreparedStatement prep=connection.prepareStatement(getRAns);
-                for(AnsObject ansObject:ansvers){
+                for(AnsObject ansObject:answers){
                     prep.setInt(1,ansObject.getCont_id());
                     prep.setInt(2,ansObject.getTest_id());
                     resultSet=prep.executeQuery();
-                    if(resultSet!=null)
-                    while (resultSet.next()){
-                        if(resultSet.getInt(3)==ansObject.getAns_id())k++;
+                    if(resultSet!=null) {
+                        while (resultSet.next()) {
+                            if (resultSet.getInt(3) == ansObject.getAns_id()) k++;
+                        }
                     }
                 }
                 prep=connection.prepareStatement(setResult);
-                if(ansvers.size()>0){
-                    prep.setInt(1,ansvers.get(0).getCont_id());
+                if(answers.size()>0){
+                    prep.setInt(1,answers.get(0).getCont_id());
                     prep.setInt(2,u_id);
                     prep.setInt(3,k);
                     prep.execute();
@@ -287,7 +263,9 @@ public class MDB {
                 connection.close();
 
                 while (resultSet.next()){
-                    if(resultSet.getString("pass").equals(authObject.getUserPassword())){
+                    if(bCrypt.verifyHash(
+                            authObject.getUserPassword(),
+                            resultSet.getString("pass"))) {
                         return resultSet.getInt("user_id");
                     }
                 }
@@ -311,7 +289,9 @@ public class MDB {
                 connection.close();
 
                 while (resultSet.next()){
-                    if(resultSet.getString("pass").equals(authObject.getUserPassword())){
+                    if(bCrypt.verifyHash(
+                            authObject.getUserPassword(),
+                            resultSet.getString("pass"))){
                         return true;
                     }
                 }
@@ -343,7 +323,7 @@ public class MDB {
                 prepareAnswers.execute();
                 prepareAnswers=connection.prepareStatement(takeAnswers);
                 resultSet=prepareAnswers.executeQuery();
-                makeAnsvers(resultSet);
+                makeAnswers(resultSet);
 
                 Tests.setDataBase(data);
             } catch (SQLException e) {
@@ -392,7 +372,7 @@ public class MDB {
         data.setTest_quest(test_quest);
     }
 
-    private static synchronized void makeAnsvers(ResultSet resultSet){
+    private static synchronized void makeAnswers(ResultSet resultSet){
         ArrayList<Integer> ans_id=new ArrayList<Integer>();
         ArrayList<Integer> ans_test_id=new ArrayList<Integer>();
         ArrayList<String> ans_text=new ArrayList<String>();

@@ -4,9 +4,9 @@ package serv;
 import java.net.Socket;
 
 public class Handler extends Thread {
-    Socket socket;
+    private Socket socket;
 
-    public Handler(Socket socket){
+    Handler(Socket socket){
         this.socket=socket;
     }
 

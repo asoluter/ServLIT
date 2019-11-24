@@ -20,7 +20,7 @@ public class RealServ extends JFrame {
 
     static Logger logger;
 
-    public RealServ(){
+    private RealServ(){
         start();
     }
 
@@ -34,12 +34,12 @@ public class RealServ extends JFrame {
         );
     }
 
-    JButton startButton;
-    JButton stopButton;
-    JButton editDataButton;
-    DataForm dataForm;
+    private JButton startButton;
+    private JButton stopButton;
+    private JButton editDataButton;
+    private DataForm dataForm;
 
-    public void start(){
+    private void start(){
         dataForm=new DataForm();
 
         setTitle("ServLIT");
@@ -131,7 +131,7 @@ public class RealServ extends JFrame {
     private Thread serverThread;
     private ServerSocket serverSocket;
     private boolean serverRun;
-    public void startServ(){
+    private void startServ(){
         serverRun=false;
         startButton.setEnabled(false);
         stopButton.setEnabled(true);
@@ -163,7 +163,7 @@ public class RealServ extends JFrame {
 
     }
 
-    public void stopServ(){
+    private void stopServ(){
         try {
             startButton.setEnabled(true);
             stopButton.setEnabled(false);

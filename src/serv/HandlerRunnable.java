@@ -3,7 +3,6 @@ package serv;
 import com.asoluter.litest.Objects.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter;
 import serv.DataQuery.MDB;
 import serv.Tests.Tests;
 
@@ -23,7 +22,7 @@ public class HandlerRunnable implements Runnable {
     private ObjectInputStream in;
     private ObjectOutputStream out;
 
-    public HandlerRunnable(Socket socket){
+    HandlerRunnable(Socket socket){
         this.socket=socket;
     }
 
@@ -68,11 +67,10 @@ public class HandlerRunnable implements Runnable {
                 if(Iauthorized!=-1){
 
                     String login=auth.getUserName();
-                    ArrayList<AnsObject> ansvers=(ArrayList)pair.getSecond();
-                    int kRans=MDB.IcheckAnsvers(MDB.IgetU_id(login),ansvers);
-                    logger.info("authorized test: user:"+auth.getUserName()+" result:"+String.valueOf(kRans));
+                    ArrayList<AnsObject> answers=(ArrayList)pair.getSecond();
+                    int kRans=MDB.IcheckAnswers(MDB.IgetU_id(login),answers);
+                    logger.info("authorized test: user:"+auth.getUserName()+" result:"+ kRans);
                     out.writeObject(new TypingObject(Strings.TEST_RESULT,kRans));
-
                 }
                 else {
                     logger.info("not authorized test: "+auth.getUserName());
@@ -81,7 +79,7 @@ public class HandlerRunnable implements Runnable {
             }
             /**TODO: DELETE THAT
             authorized=false;
-            TypingObject test=new TypingObject("test",new TestObject("vyshlo"));
+            TypingObject test=new TypingObject("test",new TestObject("ok"));
             out.writeObject(test);
             */
             else if(obj.getType().equals(Strings.REFRESH)){

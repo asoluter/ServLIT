@@ -8,7 +8,7 @@ import javax.swing.JTextArea;
 public class CustomOutputStream extends OutputStream {
     private JTextArea textArea;
 
-    public CustomOutputStream(JTextArea textArea) {
+    CustomOutputStream(JTextArea textArea) {
         this.textArea = textArea;
     }
 

@@ -1,17 +1,17 @@
 package serv.DataControls;
 
 import com.asoluter.litest.Objects.RegData;
-import javafx.stage.FileChooser;
+import javafx.util.Pair;
 import org.apache.logging.log4j.Logger;
 import serv.DataQuery.MDB;
 
 import javax.swing.*;
-import javax.swing.filechooser.FileFilter;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
@@ -25,19 +25,17 @@ public class DataForm extends JFrame {
         start();
     }
 
-    JComponent answersPanel;
-    JComponent contestsPanel;
-    JComponent rightAnswersPanel;
-    JComponent resultsPanel;
-    JComponent testsPanel;
-    JComponent usersPanel;
+    private JComponent answersPanel;
+    private JComponent contestsPanel;
+    private JComponent resultsPanel;
+    private JComponent testsPanel;
+    private JComponent usersPanel;
 
-    JTable tableAns;
-    JTable tableCon;
-    JTable tableRan;
-    JTable tableRes;
-    JTable tableTes;
-    JTable tableUse;
+    private JTable tableAns;
+    private JTable tableCon;
+    private JTable tableRes;
+    private JTable tableTes;
+    private JTable tableUse;
 
     private void start(){
         setTitle("ServLIT-Database");
@@ -53,8 +51,6 @@ public class DataForm extends JFrame {
         setAnswersContent();
         contestsPanel=new JPanel(new BorderLayout());
         setContestsContent();
-        rightAnswersPanel =new JPanel(new BorderLayout());
-        setRightAnswersContent();
         resultsPanel=new JPanel(new BorderLayout());
         setResultsContent();
         testsPanel=new JPanel(new BorderLayout());
@@ -65,11 +61,27 @@ public class DataForm extends JFrame {
         tabbedPane.addTab("Contests",contestsPanel);
         tabbedPane.addTab("Tests",testsPanel);
         tabbedPane.addTab("Answers", answersPanel);
-        tabbedPane.addTab("Right answers", rightAnswersPanel);
         tabbedPane.addTab("Results",resultsPanel);
         tabbedPane.addTab("Users",usersPanel);
 
         root.add(tabbedPane);
+    }
+
+    private Pair<String[], Integer[]> getNameIdPair(ResultSet resultSet, String nameCol, String idCol) {
+        try {
+            ArrayList<String> names = new ArrayList<>();
+            ArrayList<Integer> ids = new ArrayList<>();
+
+            while (resultSet.next()) {
+                ids.add(resultSet.getInt(idCol));
+                names.add(resultSet.getString(nameCol));
+            }
+
+            return new Pair<>(names.toArray(new String[0]), ids.toArray(new Integer[0]));
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        return new Pair<>(new String[0], new Integer[0]);
     }
 
     private void setUsersContent() {
@@ -81,38 +93,33 @@ public class DataForm extends JFrame {
         JPanel controlPanel=new JPanel();
 
         JButton addButton=new JButton("Add");
-        addButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JTextField username = new JTextField();
-                JTextField password = new JPasswordField();
-                JTextField mail     = new JTextField();
-                JTextField name     = new JTextField();
-                JTextField date     = new JTextField();
-                new GhostText(date,"____-__-__");
-                Object[] message = {
-                        "Username:"  , username,
-                        "Password:"  , password,
-                        "Mail:"      , mail,
-                        "Full name:" , name,
-                        "Birth date:", date
-                };
+        addButton.addActionListener(e -> {
+            JTextField username = new JTextField();
+            JTextField password = new JPasswordField();
+            JTextField mail     = new JTextField();
+            JTextField name     = new JTextField();
+            JTextField date     = new JTextField();
+            new GhostText(date,"yyyy-mm-dd");
+            Object[] message = {
+                    "Username:"  , username,
+                    "Password:"  , password,
+                    "Mail:"      , mail,
+                    "Full name:" , name,
+                    "Birth date:", date
+            };
 
-                int option = JOptionPane.showConfirmDialog(null, message, "Add user", JOptionPane.OK_CANCEL_OPTION);
-                if(option==JOptionPane.OK_OPTION)
-                    MDB.checkRegister(new RegData(name.getText(),username.getText(),password.getText()
-                        ,mail.getText(), Date.valueOf(date.getText())));
+            int option = JOptionPane.showConfirmDialog(null, message, "Add user", JOptionPane.OK_CANCEL_OPTION);
+            if(option==JOptionPane.OK_OPTION) {
+                MDB.checkRegister(new RegData(name.getText(), username.getText(), password.getText()
+                        , mail.getText(), Date.valueOf(date.getText())));
                 tableUse.setModel(getModel(MDB.getFUsers()));
             }
         });
         JButton deleteButton=new JButton("Delete");
-        deleteButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int u_id=Integer.valueOf(JOptionPane.showInputDialog(deleteButton,"User ID","Delete user",JOptionPane.PLAIN_MESSAGE));
-                MDB.deleteUser(u_id);
-                tableUse.setModel(getModel(MDB.getFUsers()));
-            }
+        deleteButton.addActionListener(e -> {
+            int u_id=Integer.parseInt(JOptionPane.showInputDialog(deleteButton,"User ID","Delete user",JOptionPane.PLAIN_MESSAGE));
+            MDB.deleteUser(u_id);
+            tableUse.setModel(getModel(MDB.getFUsers()));
         });
         JButton exportButton=new JButton("Export");
         exportButton.addActionListener(new ActionListener() {
@@ -147,47 +154,45 @@ public class DataForm extends JFrame {
         JPanel controlPanel=new JPanel();
 
         JButton addButton=new JButton("Add");
-        addButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JTextField cont_id = new JTextField();
-                JTextField test_name = new JTextField();
-                JTextField quest = new JTextField();
+        addButton.addActionListener(e -> {
+            Pair<String[], Integer[]> nameIdPair = getNameIdPair(MDB.getFContests(), "name", "cont_id");
+            JComboBox contestComboBox = new JComboBox(nameIdPair.getKey());
+            JTextField test_name = new JTextField();
+            JTextField quest = new JTextField();
 
-                Object[] message = {
-                        "Contest ID:" , cont_id,
-                        "Test name:" , test_name,
-                        "Question:" , quest
-                };
+            Object[] message = {
+                    "Contest Name:" , contestComboBox,
+                    "Test name:" , test_name,
+                    "Question:" , quest
+            };
 
-                int option = JOptionPane.showConfirmDialog(null, message, "Add test", JOptionPane.OK_CANCEL_OPTION);
-                if(option==JOptionPane.OK_OPTION)
-                    MDB.addTest(Integer.valueOf(cont_id.getText()),test_name.getName(),quest.getText());
-                tableTes.setModel(getModel(MDB.getFTests()));
+            int option = JOptionPane.showConfirmDialog(null, message, "Add test", JOptionPane.OK_CANCEL_OPTION);
+            if(option==JOptionPane.OK_OPTION) {
+                int selectedIndex = contestComboBox.getSelectedIndex();
+                Integer[] ids = nameIdPair.getValue();
+                if (selectedIndex >= 0 && selectedIndex < ids.length) {
+                    int contId = ids[selectedIndex];
+                    MDB.addTest(contId, test_name.getText(), quest.getText());
+                }
             }
+            tableTes.setModel(getModel(MDB.getFTests()));
         });
         JButton deleteButton=new JButton("Delete");
-        deleteButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int u_id=Integer.valueOf(JOptionPane.showInputDialog(deleteButton,"Test ID","Delete test",JOptionPane.PLAIN_MESSAGE));
-                MDB.deleteTests(u_id);
-                tableTes.setModel(getModel(MDB.getFTests()));
-            }
+        deleteButton.addActionListener(e -> {
+            int u_id=Integer.parseInt(JOptionPane.showInputDialog(deleteButton,"Test ID","Delete test",JOptionPane.PLAIN_MESSAGE));
+            MDB.deleteTests(u_id);
+            tableTes.setModel(getModel(MDB.getFTests()));
         });
         JButton exportButton=new JButton("Export");
-        exportButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JFileChooser chooser = new JFileChooser();
-                chooser.setCurrentDirectory(new java.io.File("."));
-                chooser.setFileFilter(new CSVFileFilter());
+        exportButton.addActionListener(e -> {
+            JFileChooser chooser = new JFileChooser();
+            chooser.setCurrentDirectory(new java.io.File("."));
+            chooser.setFileFilter(new CSVFileFilter());
 
-                int ret_val = chooser.showSaveDialog(exportButton);
+            int ret_val = chooser.showSaveDialog(exportButton);
 
-                if(ret_val==JFileChooser.APPROVE_OPTION){
-                    ReportManager.makeTestCSV(MDB.getFTests(),chooser.getSelectedFile().getAbsolutePath());
-                }
+            if(ret_val==JFileChooser.APPROVE_OPTION){
+                ReportManager.makeTestCSV(MDB.getFTests(),chooser.getSelectedFile().getAbsolutePath());
             }
         });
 
@@ -208,18 +213,15 @@ public class DataForm extends JFrame {
         JPanel controlPanel=new JPanel();
 
         JButton exportButton=new JButton("Export");
-        exportButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JFileChooser chooser = new JFileChooser();
-                chooser.setCurrentDirectory(new java.io.File("."));
-                chooser.setFileFilter(new CSVFileFilter());
+        exportButton.addActionListener(e -> {
+            JFileChooser chooser = new JFileChooser();
+            chooser.setCurrentDirectory(new java.io.File("."));
+            chooser.setFileFilter(new CSVFileFilter());
 
-                int ret_val = chooser.showSaveDialog(exportButton);
+            int ret_val = chooser.showSaveDialog(exportButton);
 
-                if(ret_val==JFileChooser.APPROVE_OPTION){
-                    ReportManager.makeResCSV(MDB.getFResults(),chooser.getSelectedFile().getAbsolutePath());
-                }
+            if(ret_val==JFileChooser.APPROVE_OPTION){
+                ReportManager.makeResCSV(MDB.getFResults(),chooser.getSelectedFile().getAbsolutePath());
             }
         });
 
@@ -227,69 +229,6 @@ public class DataForm extends JFrame {
 
         resultsPanel.add(scrollPane,BorderLayout.CENTER);
         resultsPanel.add(controlPanel,BorderLayout.SOUTH);
-    }
-
-    private void setRightAnswersContent() {
-        tableRan=new JTable();
-        tableRan.setModel(getModel(MDB.getFRightAnswers()));
-        JScrollPane scrollPane=new JScrollPane(tableRan,ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,
-                ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-
-        JPanel controlPanel=new JPanel();
-
-        JButton addButton=new JButton("Add");
-        addButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JTextField cont_id = new JTextField();
-                JTextField test_id = new JTextField();
-                JTextField rans = new JTextField();
-
-                Object[] message = {
-                        "Contest ID:" , cont_id,
-                        "Test ID:" , test_id,
-                        "Right ansver ID:" , rans
-                };
-
-                int option = JOptionPane.showConfirmDialog(null, message, "Add right answer ID", JOptionPane.OK_CANCEL_OPTION);
-                if(option==JOptionPane.OK_OPTION)
-                    MDB.addRans(Integer.valueOf(cont_id.getText()),Integer.valueOf(test_id.getName())
-                            ,Integer.valueOf(rans.getText()));
-                tableRan.setModel(getModel(MDB.getFRightAnswers()));
-            }
-        });
-        JButton deleteButton=new JButton("Delete");
-        deleteButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int u_id=Integer.valueOf(JOptionPane.showInputDialog(deleteButton,"Right answer ID","Delete right answer"
-                        ,JOptionPane.PLAIN_MESSAGE));
-                MDB.deleteRAns(u_id);
-                tableRan.setModel(getModel(MDB.getFRightAnswers()));
-            }
-        });
-        JButton exportButton=new JButton("Export");
-        exportButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JFileChooser chooser = new JFileChooser();
-                chooser.setCurrentDirectory(new java.io.File("."));
-                chooser.setFileFilter(new CSVFileFilter());
-
-                int ret_val = chooser.showSaveDialog(exportButton);
-
-                if(ret_val==JFileChooser.APPROVE_OPTION){
-                    ReportManager.makeRansCSV(MDB.getFRightAnswers(),chooser.getSelectedFile().getAbsolutePath());
-                }
-            }
-        });
-
-        controlPanel.add(addButton);
-        controlPanel.add(deleteButton);
-        controlPanel.add(exportButton);
-
-        rightAnswersPanel.add(scrollPane,BorderLayout.CENTER);
-        rightAnswersPanel.add(controlPanel,BorderLayout.SOUTH);
     }
 
     private void setContestsContent() {
@@ -301,46 +240,37 @@ public class DataForm extends JFrame {
         JPanel controlPanel=new JPanel();
 
         JButton addButton=new JButton("Add");
-        addButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JTextField name = new JTextField();
-                JTextField ending = new JTextField();
-                new GhostText(ending,"____-__-__");
+        addButton.addActionListener(e -> {
+            JTextField name = new JTextField();
+            JTextField ending = new JTextField();
+            new GhostText(ending,"____-__-__");
 
-                Object[] message = {
-                        "Contest name:" , name,
-                        "Ending date:" , ending
-                };
+            Object[] message = {
+                    "Contest name:" , name,
+                    "Ending date:" , ending
+            };
 
-                int option = JOptionPane.showConfirmDialog(null, message, "Add contest", JOptionPane.OK_CANCEL_OPTION);
-                if(option==JOptionPane.OK_OPTION)
-                    MDB.addCont(name.getText(),Date.valueOf(ending.getText()));
-                tableCon.setModel(getModel(MDB.getFContests()));
-            }
+            int option = JOptionPane.showConfirmDialog(null, message, "Add contest", JOptionPane.OK_CANCEL_OPTION);
+            if(option==JOptionPane.OK_OPTION)
+                MDB.addCont(name.getText(),Date.valueOf(ending.getText()));
+            tableCon.setModel(getModel(MDB.getFContests()));
         });
         JButton deleteButton=new JButton("Delete");
-        deleteButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int u_id=Integer.valueOf(JOptionPane.showInputDialog(deleteButton,"Contest ID","Delete contest",JOptionPane.PLAIN_MESSAGE));
-                MDB.deleteContests(u_id);
-                tableCon.setModel(getModel(MDB.getFContests()));
-            }
+        deleteButton.addActionListener(e -> {
+            int u_id=Integer.parseInt(JOptionPane.showInputDialog(deleteButton,"Contest ID","Delete contest",JOptionPane.PLAIN_MESSAGE));
+            MDB.deleteContests(u_id);
+            tableCon.setModel(getModel(MDB.getFContests()));
         });
         JButton exportButton=new JButton("Export");
-        exportButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JFileChooser chooser = new JFileChooser();
-                chooser.setCurrentDirectory(new java.io.File("."));
-                chooser.setFileFilter(new CSVFileFilter());
+        exportButton.addActionListener(e -> {
+            JFileChooser chooser = new JFileChooser();
+            chooser.setCurrentDirectory(new java.io.File("."));
+            chooser.setFileFilter(new CSVFileFilter());
 
-                int ret_val = chooser.showSaveDialog(exportButton);
+            int ret_val = chooser.showSaveDialog(exportButton);
 
-                if(ret_val==JFileChooser.APPROVE_OPTION){
-                    ReportManager.makeContCSV(MDB.getFContests(),chooser.getSelectedFile().getAbsolutePath());
-                }
+            if(ret_val==JFileChooser.APPROVE_OPTION){
+                ReportManager.makeContCSV(MDB.getFContests(),chooser.getSelectedFile().getAbsolutePath());
             }
         });
 
@@ -362,45 +292,45 @@ public class DataForm extends JFrame {
         JPanel controlPanel=new JPanel();
 
         JButton addButton=new JButton("Add");
-        addButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JTextField test_id = new JTextField();
-                JTextField ans_text = new JTextField();
+        addButton.addActionListener(e -> {
+            Pair<String[], Integer[]> nameIdPair = getNameIdPair(MDB.getFTests(), "quest", "test_id");
+            JComboBox testComboBox = new JComboBox(nameIdPair.getKey());
+            JTextField ans_text = new JTextField();
+            JCheckBox correct_check = new JCheckBox();
 
-                Object[] message = {
-                        "Test ID:" , test_id,
-                        "Ansver text:" , ans_text
-                };
+            Object[] message = {
+                    "Test:" , testComboBox,
+                    "Answer text:" , ans_text,
+                    "Correct:", correct_check
+            };
 
-                int option = JOptionPane.showConfirmDialog(null, message, "Add answer", JOptionPane.OK_CANCEL_OPTION);
-                if(option==JOptionPane.OK_OPTION)
-                    MDB.addAns(Integer.valueOf(test_id.getName()),ans_text.getText());
-                tableAns.setModel(getModel(MDB.getFAnswers()));
+            int option = JOptionPane.showConfirmDialog(null, message, "Add answer", JOptionPane.OK_CANCEL_OPTION);
+            if(option==JOptionPane.OK_OPTION) {
+                int selectedIndex = testComboBox.getSelectedIndex();
+                Integer[] ids = nameIdPair.getValue();
+                if (selectedIndex >= 0 && selectedIndex < ids.length) {
+                    int contId = ids[selectedIndex];
+                    MDB.addAns(contId, ans_text.getText(), correct_check.isSelected());
+                }
             }
+            tableAns.setModel(getModel(MDB.getFAnswers()));
         });
         JButton deleteButton=new JButton("Delete");
-        deleteButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                int u_id=Integer.valueOf(JOptionPane.showInputDialog(deleteButton,"Answer ID","Delete answer",JOptionPane.PLAIN_MESSAGE));
-                MDB.deleteAnswers(u_id);
-                tableAns.setModel(getModel(MDB.getFAnswers()));
-            }
+        deleteButton.addActionListener(e -> {
+            int u_id=Integer.parseInt(JOptionPane.showInputDialog(deleteButton,"Answer ID","Delete answer",JOptionPane.PLAIN_MESSAGE));
+            MDB.deleteAnswers(u_id);
+            tableAns.setModel(getModel(MDB.getFAnswers()));
         });
         JButton exportButton=new JButton("Export");
-        exportButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JFileChooser chooser = new JFileChooser();
-                chooser.setCurrentDirectory(new java.io.File("."));
-                chooser.setFileFilter(new CSVFileFilter());
+        exportButton.addActionListener(e -> {
+            JFileChooser chooser = new JFileChooser();
+            chooser.setCurrentDirectory(new java.io.File("."));
+            chooser.setFileFilter(new CSVFileFilter());
 
-                int ret_val = chooser.showSaveDialog(exportButton);
+            int ret_val = chooser.showSaveDialog(exportButton);
 
-                if(ret_val==JFileChooser.APPROVE_OPTION){
-                    ReportManager.makeAnsCSV(MDB.getFAnswers(),chooser.getSelectedFile().getAbsolutePath());
-                }
+            if(ret_val==JFileChooser.APPROVE_OPTION){
+                ReportManager.makeAnsCSV(MDB.getFAnswers(),chooser.getSelectedFile().getAbsolutePath());
             }
         });
 
@@ -419,11 +349,9 @@ public class DataForm extends JFrame {
             ResultSetMetaData rsmd = resultSet.getMetaData();
             int cc=rsmd.getColumnCount();
 
-
             for(int i=0;i<cc;i++){
                 columnNames.add(rsmd.getColumnLabel(i+1));
             }
-
 
             int j=0;
             while (resultSet.next()){
@@ -437,7 +365,7 @@ public class DataForm extends JFrame {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        Object[][] dataArr=new Object[data.size()][data.get(0).size()];
+        Object[][] dataArr= data.size() == 0 ? new Object[0][0] : new Object[data.size()][data.get(0).size()];
         int j=0;
         for(ArrayList<Object> a:data){
             for(int i=0;i<a.size();i++){

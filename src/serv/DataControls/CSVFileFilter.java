@@ -4,7 +4,7 @@ import javax.swing.filechooser.FileFilter;
 import java.io.File;
 
 public class CSVFileFilter extends FileFilter {
-    String ext="csv";
+    private String ext="csv";
 
     @Override
     public boolean accept(File f) {
