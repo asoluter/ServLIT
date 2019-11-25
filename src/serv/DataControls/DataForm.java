@@ -92,6 +92,11 @@ public class DataForm extends JFrame {
 
         JPanel controlPanel=new JPanel();
 
+        JButton refreshButton = new JButton("Refresh");
+        refreshButton.addActionListener(e -> {
+            tableUse.setModel(getModel(MDB.getFUsers()));
+        });
+
         JButton addButton=new JButton("Add");
         addButton.addActionListener(e -> {
             JTextField username = new JTextField();
@@ -137,6 +142,7 @@ public class DataForm extends JFrame {
             }
         });
 
+        controlPanel.add(refreshButton);
         controlPanel.add(addButton);
         controlPanel.add(deleteButton);
         controlPanel.add(exportButton);
@@ -152,6 +158,11 @@ public class DataForm extends JFrame {
                 ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 
         JPanel controlPanel=new JPanel();
+
+        JButton refreshButton = new JButton("Refresh");
+        refreshButton.addActionListener(e -> {
+            tableTes.setModel(getModel(MDB.getFTests()));
+        });
 
         JButton addButton=new JButton("Add");
         addButton.addActionListener(e -> {
@@ -196,6 +207,7 @@ public class DataForm extends JFrame {
             }
         });
 
+        controlPanel.add(refreshButton);
         controlPanel.add(addButton);
         controlPanel.add(deleteButton);
         controlPanel.add(exportButton);
@@ -212,6 +224,11 @@ public class DataForm extends JFrame {
 
         JPanel controlPanel=new JPanel();
 
+        JButton refreshButton = new JButton("Refresh");
+        refreshButton.addActionListener(e -> {
+            tableRes.setModel(getModel(MDB.getFResults()));
+        });
+
         JButton exportButton=new JButton("Export");
         exportButton.addActionListener(e -> {
             JFileChooser chooser = new JFileChooser();
@@ -225,6 +242,7 @@ public class DataForm extends JFrame {
             }
         });
 
+        controlPanel.add(refreshButton);
         controlPanel.add(exportButton);
 
         resultsPanel.add(scrollPane,BorderLayout.CENTER);
@@ -238,6 +256,11 @@ public class DataForm extends JFrame {
                 ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 
         JPanel controlPanel=new JPanel();
+
+        JButton refreshButton = new JButton("Refresh");
+        refreshButton.addActionListener(e -> {
+            tableCon.setModel(getModel(MDB.getFContests()));
+        });
 
         JButton addButton=new JButton("Add");
         addButton.addActionListener(e -> {
@@ -274,6 +297,7 @@ public class DataForm extends JFrame {
             }
         });
 
+        controlPanel.add(refreshButton);
         controlPanel.add(addButton);
         controlPanel.add(deleteButton);
         controlPanel.add(exportButton);
@@ -290,6 +314,11 @@ public class DataForm extends JFrame {
                 ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 
         JPanel controlPanel=new JPanel();
+
+        JButton refreshButton = new JButton("Refresh");
+        refreshButton.addActionListener(e -> {
+            tableAns.setModel(getModel(MDB.getFAnswers()));
+        });
 
         JButton addButton=new JButton("Add");
         addButton.addActionListener(e -> {
@@ -334,6 +363,7 @@ public class DataForm extends JFrame {
             }
         });
 
+        controlPanel.add(refreshButton);
         controlPanel.add(addButton);
         controlPanel.add(deleteButton);
         controlPanel.add(exportButton);

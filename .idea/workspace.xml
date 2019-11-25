@@ -1,61 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08b25823-06ce-4f1e-84a0-bbc15fe3e235" name="Default Changelist" comment="Added password hashing. Updated adding tests/answers box. Removed rans table and added &quot;Correct&quot; column to answers instead. Further refactoring.">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serv/DataQuery/UpdatableBCrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serv/libs/jbcrypt-0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serv/libs/postgresql-42.2.5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ServLIT_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.ids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="08b25823-06ce-4f1e-84a0-bbc15fe3e235" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data SQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Data SQL.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServLIT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServLIT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/AnsObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/AuthObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/DataBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/NullObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/RegData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/com/asoluter/litest/Objects/TypingObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/DataQuery/MDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/HandlerRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/HttpServ/MyHttpServer$HtmlHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/HttpServ/MyHttpServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/HttpServ/PortScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/RealServ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Refresh$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Refresh$RefreshRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Refresh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Tests/Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServLIT/serv/Utils/DataConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asoluter/litest/Objects/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/CustomOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/CustomOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/DataControls/CSVFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/DataControls/CSVFileFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serv/DataControls/DataForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/DataControls/DataForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/DataControls/GhostText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/DataControls/GhostText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serv/DataControls/ReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/DataControls/ReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/DataQuery/MDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/HandlerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/HandlerRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/HttpServ/PortScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/HttpServ/PortScan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/RealServ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/RealServ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serv/Utils/DataConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/Utils/DataConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serv/Refresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serv/Refresh.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,17 +149,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3aac72e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7d13b703" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3aac72e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6e95ff22" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3aac72e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@57d9e730" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -229,8 +170,16 @@
       <workItem from="1574124681211" duration="996000" />
       <workItem from="1574431914168" duration="2365000" />
       <workItem from="1574513856406" duration="1203000" />
-      <workItem from="1574522978867" duration="19408000" />
+      <workItem from="1574522978867" duration="26001000" />
     </task>
+    <task id="LOCAL-00001" summary="Added password hashing. Updated adding tests/answers box. Removed rans table and added &quot;Correct&quot; column to answers instead. Further refactoring.">
+      <created>1574609233849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574609233849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,12 +227,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/serv/DataControls/DataForm.java</url>
-          <line>306</line>
+          <line>335</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/serv/DataControls/DataForm.java</url>
-          <line>295</line>
+          <line>324</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

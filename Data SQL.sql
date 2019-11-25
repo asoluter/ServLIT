@@ -66,3 +66,44 @@ CREATE TABLE public.results
 );
 ALTER TABLE public.results
 ADD CONSTRAINT unique_result_id UNIQUE (result_id);
+
+-- Table users {
+--   user_id int [pk]
+--   login varchar
+--   pass varchar
+--   mail varchar
+--   name varchar
+--   birth date
+--   checked boolean
+-- }
+--
+-- Table contests {
+--   cont_id int [pk]
+--   name varchar
+--   ending date
+--   enabled boolean
+-- }
+--
+-- Table tests {
+--   test_id int [pk]
+--   cont_id int [ref: > contests.cont_id]
+--   test_name varchar
+--   quest varchar
+-- }
+--
+-- Table answers {
+--   ans_id int [pk]
+--   test_id int [ref: > tests.test_id]
+--   ans_text varchar
+--   correct boolean
+-- }
+--
+-- Table results {
+--   result_id int [pk]
+--   cont_id int [ref: > contests.cont_id]
+--   user_id int [ref: > users.user_id]
+--   res_text varchar
+--   result int
+--   sent date
+-- }
+--

@@ -12,7 +12,7 @@ public class Refresh extends Thread {
         new RefreshRun().run();
     }
 
-    private class RefreshRun implements Runnable{
+    private class RefreshRun implements Runnable {
         Logger logger= LogManager.getLogger("Refresher");
 
         @Override

@@ -9,13 +9,15 @@ class ReportManager {
     static void makeAnsCSV(ResultSet resultSet, String path){
         try {
             FileWriter writer=new FileWriter(path);
-            writer.write("Answer_id;Test_id;Answer_text\n");
+            writer.write("Answer_id;Test_id;Answer_text;Correct\n");
             while (resultSet.next()){
                 writer.append(String.valueOf(resultSet.getInt(1)));
                 writer.append(';');
                 writer.append(String.valueOf(resultSet.getInt(2)));
                 writer.append(';');
                 writer.append(resultSet.getString(3));
+                writer.append(';');
+                writer.append(resultSet.getString(4));
                 writer.append('\n');
             }
             writer.flush();
